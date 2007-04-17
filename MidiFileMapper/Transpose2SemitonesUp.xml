@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General
+    Name="Transpose 2 Semitones"
+    Author="Mark Heath"
+    Description="Test file"
+    />
+
+  <NoteMap Name="Transpose All Notes" InChannel="1-9,11-16" InNote="*" OutNote="+2" />
+
+</MidiMappingRules>
+  

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <!-- AD Drums
+36 Kick
+37 Snare Rimshot L
+38 Snare Open Hit L
+39 Snare Rimshot R
+40 Snare Open Hit R
+41 Snare Shallow Rimshot
+42 Snare Sidestick
+43 Snare Shallow Hit
+44 Snare Rim Click
+45 Ride Pearl (Double)
+46 Cymbal 1 (Double)
+47 Cowbell
+48 HH Pedal Closed
+49 HH Closed 1 Pearl
+50 HH Closed 1 Shaft
+51 HH Closed 2 Pearl
+52 HH Closed 2 Shaft
+53 HH Closed Bell
+54 HH Open A
+55 HH Open B
+56 HH Open C
+57 HH Open D
+58 HH Open Bell
+59 HH Pedal Open
+60 Ride Pearl
+61 Ride Bell
+62 Ride Shaft
+63 Ride Choke
+65 Tom 4 Open Hit
+66 Tom 4 Rimshot
+67 Tom 3 Open Hit
+68 Tom 3 Rimshot
+69 Tom 2 Open Hit
+70 Tom 2 Rimshot
+71 Tom 1 Open Hit
+72 Tom 1 Rimshot
+75 Sticks 
+77 Cymbal 1
+78 Cymbal 1 Choke
+79 Cymbal 2
+80 Cymbal 2 Choke
+81 Cymbal 3
+82 Cymbal 3 Choke
+-->
+  <!-- EZD standard kit
+- Hats seq soft In:65 
+- Hats seq hard In:64 
+- Hats tight tip In:63 
+- Hats tight edge In:62 
+- Hats closed tip In:61 
+- Hats open max In:60 
+- Ride punch In:59 
+- Crash B muted In:58 
+- Crash B sustained In:57 
+- Cowbell In:56 
+- Crash A sustained In:55 
+- Crash A muted In:54 
+- Ride Bell In:53 
+- Crash B (GM) In:52 
+- Ride bow In:51 
+- Rack Tom 1 In:50 
+- Crash A (GM) In:49 
+- RT1 alias In:48 
+- Rack Tom 2 In:47 
+- Open Hats (GM) In:46 
+- RT2 alias In:45 
+- Hats pedal (GM) In:44 
+- Floor Tom In:43 
+- Closed Hats (GM) In:42 
+- FT alias In:41 
+- Snare rimshot In:40 
+- Snare Right alias In:39 
+- Snare Right In:38 
+- Side Stick In:37 
+- Kick In:36 
+- Kick alias In:35 
+- Kick alias In:34 
+- Snare Left In:33 
+- Crash B alias In:32 
+- Crash B alias In:31 
+- Crash B alias In:30 
+- Crash A alias In:29 
+- Crash A alias In:28 
+- Crash A alias In:27 
+- Open Hats 3 In:26 
+- Open Hats 2 In:25 
+- Open Hats In:24 
+- Hats foot splash In:23 
+- Hats closed edge In:22 
+- Hats Pedal chick In:21 
+-->
+  <General Name="EZD Standard to AD" />
+
+  <NoteMap Name="Kick" InNote="34,35,36" OutNote="36" />
+  
+  <NoteMap Name="Snare Left" InNote="33" OutNote="38" />
+  <NoteMap Name="Snare Right" InNote="38,39" OutNote="40" />
+  <!-- AD also has rimshots on 39 & 41 (& 44) -->
+  <NoteMap Name="Snare Rimshot" InNote="40" OutNote="37" />
+  <NoteMap Name="Sidestick" InNote="37" OutNote="42" />
+  
+  <!-- not sure how best to map all the closed hats -->
+  <NoteMap Name="Closed Hats" InNote="42" OutNote="49" />
+  <NoteMap Name="Closed Edge Hats" InNote="22" OutNote="50" />
+  <NoteMap Name="Various Closed Hats" InNote="61-65" OutNote="51" />
+  <!-- AD also has closed hat on 52 & 53 -->
+
+  <!-- AD also has pedal hat on 49 -->
+  <NoteMap Name="Hats Pedal" InNote="42,21,23" OutNote="48" />
+
+  <NoteMap Name="Open Hats" InNote="46" OutNote="54" />
+  <NoteMap Name="Open Hats" InNote="24" OutNote="54" />
+  <NoteMap Name="Open Hats 2" InNote="25" OutNote="55" />
+  <NoteMap Name="Open Hats 3" InNote="26" OutNote="56" />
+  <NoteMap Name="Open Hats Max" InNote="60" OutNote="57" />
+
+  <NoteMap Name="Floor Tom" InNote="41,43" OutNote="65" />
+  <NoteMap Name="Rack Tom 2" InNote="45,47" OutNote="67" />
+  <NoteMap Name="Rack Tom 1" InNote="48,50" OutNote="69" />
+
+  <NoteMap Name="Crash A" InNote="49,27-29,55" OutNote="77" />
+  <NoteMap Name="Crash A Muted" InNote="54" OutNote="78" />
+  <NoteMap Name="Crash B" InNote="52,30-32,57" OutNote="79" />
+  <NoteMap Name="Crash B Muted" InNote="58" OutNote="80" />
+
+  <NoteMap Name="Cowbell" InNote="56" OutNote="47" />
+
+  <NoteMap Name="Ride Bow" InNote="51" OutNote="60" />
+  <NoteMap Name="Ride Bell" InNote="53" OutNote="61" />
+  <NoteMap Name="Ride Punch" InNote="59" OutNote="62" />
+
+</MidiMappingRules>

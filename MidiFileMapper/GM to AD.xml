@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+<!-- AD Drums
+36 Kick
+37 Snare Rimshot L
+38 Snare Open Hit L
+39 Snare Rimshot R
+40 Snare Open Hit R
+41 Snare Shallow Rimshot
+42 Snare Sidestick
+43 Snare Shallow Hit
+44 Snare Rim Click
+45 Ride Pearl (Double)
+46 Cymbal 1 (Double)
+47 Cowbell
+48 HH Pedal Closed
+49 HH Closed 1 Pearl
+50 HH Closed 1 Shaft
+51 HH Closed 2 Pearl
+52 HH Closed 2 Shaft
+53 HH Closed Bell
+54 HH Open A
+55 HH Open B
+56 HH Open C
+57 HH Open D
+58 HH Open Bell
+59 HH Pedal Open
+60 Ride Pearl
+61 Ride Bell
+62 Ride Shaft
+63 Ride Choke
+65 Tom 4 Open Hit
+66 Tom 4 Rimshot
+67 Tom 3 Open Hit
+68 Tom 3 Rimshot
+69 Tom 2 Open Hit
+70 Tom 2 Rimshot
+71 Tom 1 Open Hit
+72 Tom 1 Rimshot
+75 Sticks 
+77 Cymbal 1
+78 Cymbal 1 Choke
+79 Cymbal 2
+80 Cymbal 2 Choke
+81 Cymbal 3
+82 Cymbal 3 Choke
+-->
+<General Name="GM to AD" />
+
+  <!-- AD just has one kick drum-->
+<NoteMap Name="GM Acoustic Bass Drum" InNote="35" OutNote="36" />
+<NoteMap Name="Bass Drum 1" InNote="36" OutNote="36" />
+<NoteMap Name="Side Stick" InNote="37" OutNote="42" />
+<NoteMap Name="Acoustic Snare" InNote="38" OutNote="38" />
+<!-- we will allow hand clap through to play a snare rim click -->
+<NoteMap Name="Hand Clap" InNote="39" OutNote="44" />
+<!-- we will allow electric snare through to play a rim shot -->
+<NoteMap Name="Electric Snare" InNote="40" OutNote="37" />
+<NoteMap Name="Low Floor Tom" InNote="41" OutNote="65" />
+<NoteMap Name="Closed Hi-Hat" InNote="42" OutNote="50" />
+<NoteMap Name="High Floor Tom" InNote="43" OutNote="67" />
+<NoteMap Name="Pedal Hi-Hat" InNote="44" OutNote="48" />
+<NoteMap Name="Low Tom" InNote="45" OutNote="69" />
+<NoteMap Name="Open Hi-Hat" InNote="46" OutNote="56" />
+<NoteMap Name="Low-Mid Tom" InNote="47" OutNote="69" />
+<NoteMap Name="Mid Tom" InNote="48" OutNote="71" />
+<NoteMap Name="Crash Cymbal 1" InNote="49" OutNote="77" />
+<!-- A double of Mid Tom -->
+<NoteMap Name="High Tom" InNote="50" OutNote="71" />
+<NoteMap Name="Ride Bow" InNote="51" OutNote="60" />
+<!-- Map China (52) to crash 2 -->
+<NoteMap Name="China Cymbal" InNote="52" OutNote="79" />
+<NoteMap Name="Ride Bell" InNote="53" OutNote="61" />
+<!-- Filter out 54 - tambourine -->
+<!-- Send the splash (55) to crash 3 -->
+<NoteMap Name="Splash" InNote="55" OutNote="81" />
+<NoteMap Name="Cowbell" InNote="56" OutNote="47" />
+<NoteMap Name="Crash Cymbal 2" InNote="57" OutNote="77" />
+<!-- Filter out Vibraslap (58) -->
+<!-- Allow Ride Cymbal 2 to go to Ride Shaft-->
+<NoteMap Name="Ride Cymbal 2" InNote="59" OutNote="62" />
+<!-- Filter out all percussion sounds (60 upwards) -->
+</MidiMappingRules>
