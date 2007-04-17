@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General>
+    <Name>DFH1 to DFH EZX</Name>
+  </General>
+  
+  <NoteMap Name="Left Kick" InNote="36" OutNote="34" />
+  <NoteMap Name="Left Tom 1" OutName="Rack Tom 1 Head" InNote="37" OutNote="48" />
+  <NoteMap Name="Left Snare" InNote="38" OutNote="33" />  
+  <NoteMap Name="Left Tom 2" OutName="Rack Tom 2 Head" InNote="39" OutNote="47" />  
+  <NoteMap Name="Left Hard" OutName="Snare Rimshot" InNote="40" OutNote="40" />  
+  <NoteMap Name="Sidestick" InNote="41" OutNote="37" />  
+  <NoteMap Name="Left Tom 3" OutName="Rack Tom 3 Head" InNote="42" OutNote="45" />  
+  <NoteMap Name="Crash 1" OutName="Crash A" InNote="43" OutNote="49" />  
+  <NoteMap Name="Left Tom 4" OutName="Floor Tom 1 Head" InNote="44" OutNote="43" />  
+  <NoteMap Name="Crash 2" OutName="Crash B" InNote="45" OutNote="57" />  
+  <NoteMap Name="Left Tom 5" OutName="Floor Tom 2 Head" InNote="46" OutNote="41" />
+
+  <!-- hmmm -->
+  <NoteMap Name="Crash 3" InNote="47" OutNote="47" />
+  <NoteMap Name="Crash 4" InNote="48" OutNote="48" />
+
+  <NoteMap Name="Splash" OutName="Splash (GM)" InNote="49" OutNote="55" />
+  <NoteMap Name="Splash" OutName="Splash 2" InNote="50" OutNote="30" />
+  <NoteMap Name="Splash" OutName="Splash 3" InNote="51" OutNote="31" />
+
+  <!-- ???? -->
+  <NoteMap Name="Spock" InNote="52" OutNote="52" />
+  
+  <NoteMap Name="China High" InNote="53" OutNote="53" />
+  <NoteMap Name="Right Tom 5" InNote="54" OutNote="54" />
+  <NoteMap Name="China Low" InNote="55" OutNote="49" />
+  <NoteMap Name="Right Tom 4" InNote="56" OutNote="56" />
+  <NoteMap Name="Pedal" InNote="57" OutNote="57" />
+  <NoteMap Name="Right Tom 3" InNote="58" OutNote="58" />
+  <NoteMap Name="Hats" InNote="59" OutNote="59" />
+  <NoteMap Name="Right Hard" InNote="60" OutNote="60" />
+  <NoteMap Name="Right Tom 2" InNote="61" OutNote="61" />
+  <NoteMap Name="Right Snare" InNote="62" OutNote="62" />
+  <NoteMap Name="Right Tom 1" InNote="63" OutNote="63" />
+  <NoteMap Name="Right Kick" InNote="64" OutNote="64" />
+  <NoteMap Name="Open Hats 1" InNote="65" OutNote="65" />
+  <NoteMap Name="Closed Hats" InNote="66" OutNote="66" />
+  <NoteMap Name="Open Hats 2" InNote="67" OutNote="67" />
+  <NoteMap Name="Mutable Hats" InNote="68" OutNote="68" />
+  <NoteMap Name="Open Hats 3" InNote="69" OutNote="69" />
+  <NoteMap Name="The Mute" InNote="70" OutNote="70" />
+  <NoteMap Name="Open Hats 4" InNote="71" OutNote="71" />
+  <NoteMap Name="Open Hats 5" InNote="72" OutNote="72" />
+  <NoteMap Name="Wide Open Hats" InNote="73" OutNote="73" />
+  <NoteMap Name="Left Ride C" InNote="74" OutNote="74" />
+  <NoteMap Name="Left Ride" InNote="75" OutNote="75" />
+  <NoteMap Name="Left Ride B" InNote="76" OutNote="76" />
+  <NoteMap Name="Main Ride C" InNote="77" OutNote="77" />
+  <NoteMap Name="Main Ride" InNote="78" OutNote="78" />
+  <NoteMap Name="Main Ride B" InNote="79" OutNote="79" />
+  <NoteMap Name="China Ride C" InNote="81" OutNote="81" />
+  <NoteMap Name="China Ride" InNote="82" OutNote="82" />
+</MidiMappingRules>
+
+

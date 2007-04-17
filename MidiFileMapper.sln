@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiFileMapper", "MidiFileMapper\MidiFileMapper.csproj", "{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingTests", "MappingTests\MappingTests.csproj", "{863875D5-540F-4FA2-A773-68E980E5685B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863875D5-540F-4FA2-A773-68E980E5685B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863875D5-540F-4FA2-A773-68E980E5685B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863875D5-540F-4FA2-A773-68E980E5685B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863875D5-540F-4FA2-A773-68E980E5685B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs03.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MidiFileMapper.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = MappingTests\\MappingTests.csproj
+		SccProjectName2 = MappingTests
+		SccLocalPath2 = MappingTests
+	EndGlobalSection
+EndGlobal

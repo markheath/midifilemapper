@@ -1,0 +1,225 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarkHeath.MidiUtils</RootNamespace>
+    <AssemblyName>MidiFileMapper</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ManifestCertificateThumbprint>4DAD69EF8C5666CA4AD2748841F77AC47929C579</ManifestCertificateThumbprint>
+    <ManifestKeyFile>MidiFileMapper_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>D:\Test\MIDI File Mapper\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.wordandspirit.co.uk/software/mfm/</InstallUrl>
+    <MinimumRequiredVersion>1.0.0.1</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>false</CreateWebPageOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationVersion>0.1.13.0</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NAudio, Version=1.0.104.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AfterTouchMap.cs" />
+    <Compile Include="ControllerMap.cs" />
+    <Compile Include="ConvertFilesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConvertFilesPage.Designer.cs">
+      <DependentUpon>ConvertFilesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcludeEventType.cs" />
+    <Compile Include="ExcludeRule.cs" />
+    <Compile Include="IEventRule.cs" />
+    <Compile Include="InputValueParameters.cs" />
+    <Compile Include="InsertRule.cs" />
+    <Compile Include="IWizardPage.cs" />
+    <Compile Include="MidiFileMapper.cs" />
+    <Compile Include="NoteMap.cs" />
+    <Compile Include="MidiMappingRules.cs" />
+    <Compile Include="MidiFileMapperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidiFileMapperForm.Designer.cs">
+      <DependentUpon>MidiFileMapperForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoteEventOutputParameters.cs" />
+    <Compile Include="OptionsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OptionsPage.Designer.cs">
+      <DependentUpon>OptionsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PitchWheelMap.cs" />
+    <Compile Include="SelectFilesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectFilesPage.Designer.cs">
+      <DependentUpon>SelectFilesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConvertFilesPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConvertFilesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MidiFileMapperForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MidiFileMapperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectFilesPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectFilesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectFolderPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectFolderPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectMappingPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectMappingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomePage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="InstallScript.nsi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="MidiFileMapper_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SelectFolderPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectFolderPage.Designer.cs">
+      <DependentUpon>SelectFolderPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectMappingPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectMappingPage.Designer.cs">
+      <DependentUpon>SelectMappingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValueRange.cs" />
+    <Compile Include="WelcomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WelcomePage.Designer.cs">
+      <DependentUpon>WelcomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DFH1 to DFH EZX.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EZD to AD.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GM to AD.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GM to Latin Percussion EZX.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="midi_file_mapper.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GM to EZdrummer.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Transpose2SemitonesUp.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Component Include="NAudio.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

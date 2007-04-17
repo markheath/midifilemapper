@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General Name="GM to Latin Percussion EZX" />
+
+  <!--
+  
+   Shekere Crescendo In:127 Out:127 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shekere On Beat In:126 Out:126 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shekere Off Beat In:125 Out:125 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shekere Beat In:124 Out:124 Ch:9 Port:1 Vel+:0 Vel:100%
+   Crickets Crescendo In:123 Out:123 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cymbal 2 In:122 Out:122 Ch:9 Port:1 Vel+:0 Vel:100%
+   Waterfall In:121 Out:121 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cymbal 1 In:120 Out:120 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bells In:119 Out:119 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Flam In:118 Out:118 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Crescendo In:117 Out:117 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Bastone R In:116 Out:116 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Bastone L In:115 Out:115 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Muted Right In:114 Out:114 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Muted Left In:113 Out:113 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Right In:112 Out:112 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Left In:111 Out:111 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Special In:110 Out:110 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Flam In:109 Out:109 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Crescendo In:108 Out:108 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Bastone R In:107 Out:107 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Bastone L In:106 Out:106 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Muted Right In:105 Out:105 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Muted Left In:104 Out:104 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Right In:103 Out:103 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga2 Open Left In:102 Out:102 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Special In:101 Out:101 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Slap Flam In:100 Out:100 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Open Flam In:99 Out:99 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Open Crescendo In:98 Out:98 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Heel Right In:97 Out:97 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Heel Left In:96 Out:96 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Clos Slap Right In:95 Out:95 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Clos Slap Left In:94 Out:94 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Open Slap R In:93 Out:93 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Open Slap L In:92 Out:92 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Basstone R In:91 Out:91 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Open Right In:90 Out:90 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Muted Right In:89 Out:89 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga1 Slap Crescendo In:88 Out:88 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Brushed Right In:87 Out:87 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Brushed Left In:86 Out:86 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Brush Hit Right In:85 Out:85 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Brush Hit Left In:84 Out:84 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Crescendo In:83 Out:83 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Flam In:82 Out:82 Ch:9 Port:1 Vel+:0 Vel:100%
+   Triangle Open In:81 Out:81 Ch:9 Port:1 Vel+:0 Vel:100%
+   Triangle Muted In:80 Out:80 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Open Slap In:79 Out:79 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Muted Slap In:78 Out:78 Ch:9 Port:1 Vel+:0 Vel:100%
+   Woodblock 2 In:77 Out:77 Ch:9 Port:1 Vel+:0 Vel:100%
+   Woodblock 1 In:76 Out:76 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Bastone Left In:75 Out:75 Ch:9 Port:1 Vel+:0 Vel:100%
+   Guiro Long In:74 Out:74 Ch:9 Port:1 Vel+:0 Vel:100%
+   Guiro Short In:73 Out:73 Ch:9 Port:1 Vel+:0 Vel:100%
+   Chimes In:72 Out:72 Ch:9 Port:1 Vel+:0 Vel:100%
+   Crickets In:71 Out:71 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shekere Beat In:70 Out:70 Ch:9 Port:1 Vel+:0 Vel:100%
+   Afuche Beat In:69 Out:69 Ch:9 Port:1 Vel+:0 Vel:100%
+   Waterfall In:68 Out:68 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bells In:67 Out:67 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Lo Open Left In:66 Out:66 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Hi Open Left In:65 Out:65 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga Lo Bass Left In:64 Out:64 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga Hi Open Left In:63 Out:63 Ch:9 Port:1 Vel+:0 Vel:100%
+   Conga Hi Muted Left In:62 Out:62 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Lo Open Left In:61 Out:61 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Hi Open Left In:60 Out:60 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cymbal 2 Crashed In:59 Out:59 Ch:9 Port:1 Vel+:0 Vel:100%
+   Vibraslap In:58 Out:58 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cymbal 1 Crashed In:57 Out:57 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cowbell In:56 Out:56 Ch:9 Port:1 Vel+:0 Vel:100%
+   Slpash Crashed In:55 Out:55 Ch:9 Port:1 Vel+:0 Vel:100%
+   Tambourine Open In:54 Out:54 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Lo Flam In:53 Out:53 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Lo Crescendo In:52 Out:52 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Lo Open Right In:51 Out:51 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shaker Shake In:50 Out:50 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shaker On Beat In:49 Out:49 Ch:9 Port:1 Vel+:0 Vel:100%
+   Shaker Off Beat In:48 Out:48 Ch:9 Port:1 Vel+:0 Vel:100%
+   Wood Block 3 In:47 Out:47 Ch:9 Port:1 Vel+:0 Vel:100%
+   Big Shaker Shake In:46 Out:46 Ch:9 Port:1 Vel+:0 Vel:100%
+   Big Shaker On Beat In:45 Out:45 Ch:9 Port:1 Vel+:0 Vel:100%
+   Big Shaker Off Beat In:44 Out:44 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Slap Mid Right In:43 Out:43 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Slap Mid Left In:42 Out:42 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Slap Right In:41 Out:41 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Slap Left In:40 Out:40 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Flam In:39 Out:39 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Open Crescendo In:38 Out:38 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Slap Crescendo In:37 Out:37 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Lo Open In:36 Out:36 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Hi Open In:35 Out:35 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Ghost Right In:34 Out:34 Ch:9 Port:1 Vel+:0 Vel:100%
+   Udu Ghost Left In:33 Out:33 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Flam In:32 Out:32 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Crescendo In:31 Out:31 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Right Heel In:30 Out:30 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Left Heel In:29 Out:29 Ch:9 Port:1 Vel+:0 Vel:100%
+   Bongo Open Right In:28 Out:28 Ch:9 Port:1 Vel+:0 Vel:100%
+   Tambourine On Beat In:27 Out:27 Ch:9 Port:1 Vel+:0 Vel:100%
+   Tambourine Off Beat In:26 Out:26 Ch:9 Port:1 Vel+:0 Vel:100%
+   Tambourine Muted In:25 Out:25 Ch:9 Port:1 Vel+:0 Vel:100%
+   Tambourine Crescendo In:24 Out:24 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Lo Sidestroke In:23 Out:23 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Lo Flam In:22 Out:22 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Lo Open R In:21 Out:21 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Lo Rimshot In:20 Out:20 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Hi Open Right In:19 Out:19 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Hi Rimshot In:18 Out:18 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Hi Sidestroke In:17 Out:17 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Hi Flam In:16 Out:16 Ch:9 Port:1 Vel+:0 Vel:100%
+   Timbale Hi Ruff In:15 Out:15 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Sidestick R In:14 Out:14 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Sidestick L In:13 Out:13 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Ghost Right In:12 Out:12 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Ghost Left In:11 Out:11 Ch:9 Port:1 Vel+:0 Vel:100%
+   Cajon Basstone R In:10 Out:10 Ch:9 Port:1 Vel+:0 Vel:100%
+   Caxixi Beat In:9 Out:9 Ch:9 Port:1 Vel+:0 Vel:100%
+   Caxixi Special In:8 Out:8 Ch:9 Port:1 Vel+:0 Vel:100%
+   Caxixi On Beat In:7 Out:7 Ch:9 Port:1 Vel+:0 Vel:100%
+   Caxixi Off Beat In:6 Out:6 Ch:9 Port:1 Vel+:0 Vel:100%
+   Maracas Crescendo In:5 Out:5 Ch:9 Port:1 Vel+:0 Vel:100%
+   Maracas On Beat In:4 Out:4 Ch:9 Port:1 Vel+:0 Vel:100%
+   Maracas Off Beat In:3 Out:3 Ch:9 Port:1 Vel+:0 Vel:100%
+  
+  -->
+  
+  
+  <NoteMap Name="Tambourine" InNote="54" OutNote="27" />
+  <NoteMap Name="Splash" InNote="55" OutNote="55" />
+  <NoteMap Name="Cowbell" InNote="56" OutNote="56" />
+  <NoteMap Name="Vibraslap" InNote="58" OutNote="58" />
+  <NoteMap Name="High Bongo" InNote="60" OutNote="60" />
+  <NoteMap Name="Low Bongo" InNote="61" OutNote="61" />
+  <NoteMap Name="Mute High Conga" InNote="62" OutNote="62" />
+  <NoteMap Name="Open High Conga" InNote="63" OutNote="63" />
+  <NoteMap Name="Low Conga" InNote="64" OutNote="64" />
+  <NoteMap Name="High Timbale" InNote="65" OutNote="19" />
+  <NoteMap Name="Low Timbale" InNote="66" OutNote="21" />
+  #<NoteMap Name="High Agogo" InNote="67" OutNote="67" />
+  #<NoteMap Name="Low Agogo" InNote="68" OutNote="68" />
+  #<NoteMap Name="Cabasa" InNote="69" OutNote="69" />  
+  <NoteMap Name="Maracas" InNote="70" OutNote="4" />
+  <!--No whistle in EZX <NoteMap Name="Short Whistle" InNote="71" OutNote="71" />-->
+  <!--No whistle in EZX <NoteMap Name="Long Whistle" InNote="72" OutNote="72" />-->
+  <NoteMap Name="Short Guiro" InNote="73" OutNote="73" />
+  <NoteMap Name="Long Guiro" InNote="74" OutNote="74" />
+  #<NoteMap Name="Claves" InNote="75" OutNote="75" />
+  <NoteMap Name="High Wood Block" InNote="76" OutNote="76" />
+  <NoteMap Name="Low Wood Block" InNote="77" OutNote="77" />
+  #<NoteMap Name="Mute Cuica" InNote="78" OutNote="78" />
+  #<NoteMap Name="Open Cuica" InNote="79" OutNote="79" />
+  <NoteMap Name="Mute Triangle" InNote="80" OutNote="80" />
+  <NoteMap Name="Open Triangle" InNote="81" OutNote="81" />
+
+
+</MidiMappingRules>
+
+
+

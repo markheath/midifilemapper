@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General Name="GM to EZdrummer" />
+  <NoteMap Name="GM Acoustic Bass Drum" InNote="35" OutNote="35" />
+  <NoteMap Name="Bass Drum 1" InNote="36" OutNote="36" />
+  <NoteMap Name="Side Stick" InNote="37" OutNote="37" />
+  <NoteMap Name="Acoustic Snare" InNote="38" OutNote="38" />
+  <!-- we will allow hand clap through to play a snare sound -->
+  <NoteMap Name="Hand Clap" InNote="39" OutNote="39" />
+  <!-- we will allow electric snare through to play a rim shot -->
+  <NoteMap Name="Electric Snare" InNote="40" OutNote="40" />
+  <NoteMap Name="Low Floor Tom" InNote="41" OutNote="41" />
+  <NoteMap Name="Closed Hi-Hat" InNote="42" OutNote="42" />
+  <NoteMap Name="High Floor Tom" InNote="43" OutNote="43" />
+  <NoteMap Name="Pedal Hi-Hat" InNote="44" OutNote="44" />
+  <NoteMap Name="Low Tom" InNote="45" OutNote="45" />
+  <NoteMap Name="Open Hi-Hat" InNote="46" OutNote="46" />
+  <NoteMap Name="Low-Mid Tom" InNote="47" OutNote="47" />
+  <NoteMap Name="Mid Tom" InNote="48" OutNote="48" />
+  <NoteMap Name="Crash Cymbal 1" InNote="49" OutNote="49" />
+  <NoteMap Name="High Tom" InNote="50" OutNote="50" />
+  <NoteMap Name="Ride Bow" InNote="51" OutNote="51" />
+  <!-- Map China (52) to crash 2 -->
+  <NoteMap Name="China Cymbal" InNote="52" OutNote="52" />
+  <NoteMap Name="Ride Bell" InNote="53" OutNote="53" />
+  <!-- Filter out 54 - tambourine -->
+  <!-- Send the splash (55) to crash 1 -->
+  <NoteMap Name="Splash" InNote="55" OutNote="49" />
+  <NoteMap Name="Cowbell" InNote="56" OutNote="56" />
+  <NoteMap Name="Crash Cymbal 2" InNote="57" OutNote="52" />
+  <!-- Filter out Vibraslap (58) -->
+  <!-- Allow Ride Cymbal 2 to go to Ride Punch-->
+  <NoteMap Name="Ride Cymbal 2" InNote="59" OutNote="59" />
+  <!-- Filter out all percussion sounds (60 upwards) -->
+</MidiMappingRules>
+  
