@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General
+    Name="Quiet Hats, Loud Snare"
+    Author="Mark Heath"
+    Description="Test file"
+    />
+
+  <NoteMap Name="Hats" InNote="42,44,46" OutVelocity="75%" />
+  <NoteMap Name="Snare" InNote="38-40" OutVelocity="125%" />
+  <NoteMap Name="Pass-through" InNote="*" OutNote="*" />
+
+</MidiMappingRules>

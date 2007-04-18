@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("47b43987-c717-453f-b982-e4d25bee26ea")]
+[assembly: Guid("eacedaa0-fa26-408a-a412-02a399f8957b")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -33,3 +33,11 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+// Tests TODO:
+// 1) some note velocity tests to test % scaling
+// 2) some controller tests
+// 3) lots of XML parsing tests
+// 4) add in some Cakewalk maps
+// 5) add in some Cubase maps
+// 6) process whole files with the Mapper class
