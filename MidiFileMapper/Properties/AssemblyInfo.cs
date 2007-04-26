@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.1.20.0")]
-[assembly: AssemblyFileVersion("0.1.20.0")]
+[assembly: AssemblyVersion("0.2.22.0")]
+[assembly: AssemblyFileVersion("0.2.22.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -114,6 +114,8 @@ using System.Runtime.InteropServices;
 // more automated tests
 // updated to latest NAudio with stable sort of MIDI events
 // attempt at EZD to AD
+// build 22 - 26 Apr 2007
+// solution now includes the NAudio source rather than a built binary
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)
