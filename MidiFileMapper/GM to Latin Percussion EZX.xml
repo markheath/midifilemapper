@@ -144,19 +144,19 @@
   <NoteMap Name="Low Conga" InNote="64" OutNote="64" />
   <NoteMap Name="High Timbale" InNote="65" OutNote="19" />
   <NoteMap Name="Low Timbale" InNote="66" OutNote="21" />
-  #<NoteMap Name="High Agogo" InNote="67" OutNote="67" />
-  #<NoteMap Name="Low Agogo" InNote="68" OutNote="68" />
-  #<NoteMap Name="Cabasa" InNote="69" OutNote="69" />  
+  <NoteMap Name="High Agogo" InNote="67" OutNote="67" />
+  <NoteMap Name="Low Agogo" InNote="68" OutNote="68" />
+  <NoteMap Name="Cabasa" InNote="69" OutNote="69" />  
   <NoteMap Name="Maracas" InNote="70" OutNote="4" />
   <!--No whistle in EZX <NoteMap Name="Short Whistle" InNote="71" OutNote="71" />-->
   <!--No whistle in EZX <NoteMap Name="Long Whistle" InNote="72" OutNote="72" />-->
   <NoteMap Name="Short Guiro" InNote="73" OutNote="73" />
   <NoteMap Name="Long Guiro" InNote="74" OutNote="74" />
-  #<NoteMap Name="Claves" InNote="75" OutNote="75" />
+  <NoteMap Name="Claves" InNote="75" OutNote="75" />
   <NoteMap Name="High Wood Block" InNote="76" OutNote="76" />
   <NoteMap Name="Low Wood Block" InNote="77" OutNote="77" />
-  #<NoteMap Name="Mute Cuica" InNote="78" OutNote="78" />
-  #<NoteMap Name="Open Cuica" InNote="79" OutNote="79" />
+  <NoteMap Name="Mute Cuica" InNote="78" OutNote="78" />
+  <NoteMap Name="Open Cuica" InNote="79" OutNote="79" />
   <NoteMap Name="Mute Triangle" InNote="80" OutNote="80" />
   <NoteMap Name="Open Triangle" InNote="81" OutNote="81" />
 
