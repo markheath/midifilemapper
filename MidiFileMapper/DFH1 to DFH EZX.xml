@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MidiMappingRules>
-  <General>
-    <Name>DFH1 to DFH EZX</Name>
-  </General>
+  <General Name="DFH1 to DFH EZX" />
   
   <NoteMap Name="Left Kick" InNote="36" OutNote="34" />
   <NoteMap Name="Left Tom 1" OutName="Rack Tom 1 Head" InNote="37" OutNote="48" />

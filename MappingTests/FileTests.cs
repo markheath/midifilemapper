@@ -15,6 +15,18 @@ namespace MappingTests
         {
             System.IO.Directory.CreateDirectory(".\\OutputFiles");
         }
+        
+        [Test]
+        public void TestBundledMappings()
+        {
+            // simply tests that the bundled mapping files can be loaded
+            string mappingPath = ".\\..\\..\\..\\MidiFileMapper\\";
+            foreach(string file in System.IO.Directory.GetFiles(mappingPath,"*.xml"))
+            {                
+                System.Diagnostics.Debug.WriteLine(String.Format("Opening {0}",file));
+                MidiMappingRules mappingRules = MidiMappingRules.LoadFromXml(file);
+            }
+        }
 
         [Test]
         public void TransposeTestType0()

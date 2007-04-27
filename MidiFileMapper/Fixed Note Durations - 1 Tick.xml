@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General Name="Fixed Note Durations - 1 Tick"
+           Author="Mark Heath"
+           Version="1.0"
+           />
+
+  <NoteMap Name="All Notes" InNote="*" OutDuration="1" />
+</MidiMappingRules>
