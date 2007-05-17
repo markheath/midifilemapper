@@ -101,7 +101,10 @@ namespace MarkHeath.MidiUtils
                                         if (versionKey != null)
                                         {
                                             string drumMapPath = (string)versionKey.GetValue("DrumMapFolder");
-                                            AddSonarDrumMaps(drumMapPath);
+                                            if(Directory.Exists(drumMapPath))
+                                            {
+                                                AddSonarDrumMaps(drumMapPath);
+                                            }
                                         }
                                     }
                                 }
