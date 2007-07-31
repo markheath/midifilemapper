@@ -144,12 +144,13 @@ namespace MarkHeath.MidiUtils
 
                 XmlNode nameNode = xmlDoc.DocumentElement.SelectSingleNode(
                     "//" + MidiMappingRules.RootElementName + "/" +
-                    MidiMappingRules.GeneralSettingsElementName + "/Name");
+                    MidiMappingRules.GeneralSettingsElementName + "/@Name");
                 if (nameNode != null)
                 {
-                    name = nameNode.InnerText;
+                    name = nameNode.Value;
                 }
-                listBoxMapping.Items.Add(new ComboItem(name, fileName));
+                int index = listBoxMapping.Items.Add(new ComboItem(name, fileName));
+                listBoxMapping.SelectedIndex = index;
                 return true;
             }
             return false;

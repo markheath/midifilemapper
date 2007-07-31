@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.2.23.0")]
-[assembly: AssemblyFileVersion("0.2.23.0")]
+[assembly: AssemblyVersion("0.2.24.0")]
+[assembly: AssemblyFileVersion("0.2.24.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -118,6 +118,13 @@ using System.Runtime.InteropServices;
 // solution now includes the NAudio source rather than a built binary
 // build 23 - 16 May 2007
 // fix for a folder not found exception
+// build 24 - 31 Jul 2007
+// fixed a problem parsing the exclude rule
+// fixed a wizard page navigation bug
+// auto-selected custom XML rule file after it is added to the list
+// checks for input folder present
+// Building in Visual Studio 2008 beta 2 (still against .NET 2.0)
+// fixed a problem finding the name of included XML rule files
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)

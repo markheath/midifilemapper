@@ -14,8 +14,8 @@ namespace MarkHeath.MidiUtils
         public static ExcludeRule LoadFromXmlNode(XmlNode excludeNode)
         {
             ExcludeRule excludeRule = new ExcludeRule();
-            excludeRule.eventType = (ExcludeEventType)Enum.Parse(typeof(ExcludeEventType),(excludeNode.Attributes["EventType"].Value ?? "All"));
-            excludeRule.inChannels = new InputValueParameters(excludeNode.Attributes["Channel"].Value ?? "*");
+            excludeRule.eventType = (ExcludeEventType)Enum.Parse(typeof(ExcludeEventType),(XmlUtils.GetAttribute(excludeNode,"EventType","All")));
+            excludeRule.inChannels = new InputValueParameters(XmlUtils.GetAttribute(excludeNode,"Channel","*"));
             return excludeRule;
         }
 

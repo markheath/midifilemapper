@@ -88,6 +88,15 @@ namespace MarkHeath.MidiUtils
                     MessageBoxIcon.Warning);
                 return false;
             }
+            if (!Directory.Exists(textBoxInputFolder.Text))
+            {
+                MessageBox.Show(
+                    "Input folder could not be found",
+                    Application.ProductName,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return false;
+            }
             Settings.Default.InputFolder = textBoxInputFolder.Text;
             Settings.Default.CopyNonMidi = checkBoxCopyNonMidi.Checked;
             return true;

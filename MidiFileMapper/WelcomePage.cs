@@ -24,12 +24,10 @@ namespace MarkHeath.MidiUtils
             if (Settings.Default.UseInputFolder)
             {
                 radioButtonInputFolder.Checked = true;
-                nextPage = selectFolderPage;
             }
             else
             {
                 radioButtonInputFiles.Checked = true;
-                nextPage = selectFilesPage;
             }
             
         }
@@ -99,6 +97,7 @@ namespace MarkHeath.MidiUtils
             {
                 nextPage = selectFilesPage;
             }
+            nextPage.NextPage.PreviousPage = nextPage;
             return true;
         }
 
