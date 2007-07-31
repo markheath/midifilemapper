@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiFileMapper", "MidiFileMapper\MidiFileMapper.csproj", "{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingTests", "MappingTests\MappingTests.csproj", "{F1593C14-5793-4203-89B1-5074EB9AD2CC}"
