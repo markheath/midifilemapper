@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General
+    Name="Exclude Markers"
+    Author="Mark Heath"
+    Description="Removes all markers from a MIDI file"
+    />
+  <NoteMap InNote="*" OutNote="*" />
+  <Exclude EventType="Marker" />
+</MidiMappingRules>
