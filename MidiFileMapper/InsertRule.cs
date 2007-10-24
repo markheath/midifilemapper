@@ -15,9 +15,9 @@ namespace MarkHeath.MidiUtils
         public static InsertRule LoadFromXmlNode(XmlNode insertNode)
         {
             InsertRule insertRule = new InsertRule();
-            insertRule.eventType = (InsertEventType)Enum.Parse(typeof(InsertEventType), (insertNode.Attributes["EventType"].Value ?? "All"));
-            insertRule.time = long.Parse(insertNode.Attributes["Value"].Value ?? "0");
-            insertRule.value = insertNode.Attributes["Value"].Value ?? "";
+            insertRule.eventType = (InsertEventType)Enum.Parse(typeof(InsertEventType), XmlUtils.GetAttribute(insertNode,"EventType",""));
+            insertRule.time = long.Parse(XmlUtils.GetAttribute(insertNode,"Time","0"));
+            insertRule.value = XmlUtils.GetAttribute(insertNode,"Value","");
             return insertRule;
         }
 
