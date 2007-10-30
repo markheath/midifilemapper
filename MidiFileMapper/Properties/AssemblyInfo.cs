@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.2.25.0")]
-[assembly: AssemblyFileVersion("0.2.25.0")]
+[assembly: AssemblyVersion("0.2.26.0")]
+[assembly: AssemblyFileVersion("0.2.26.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -127,6 +127,9 @@ using System.Runtime.InteropServices;
 // fixed a problem finding the name of included XML rule files
 // build 25 - 24 Oct 2007
 // Fixed loading of InsertRule
+// build 26 - 30 Oct 2007
+// Introduced a new TextMap rule
+// Fixed loading of PitchWheelMap, AfterTouchMap, ControllerMap
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)

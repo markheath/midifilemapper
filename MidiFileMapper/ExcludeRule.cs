@@ -19,7 +19,7 @@ namespace MarkHeath.MidiUtils
             return excludeRule;
         }
 
-        public bool Apply(MidiEvent inEvent)
+        public bool Apply(MidiEvent inEvent, EventRuleArgs args)
         {
             bool exclude = false;
             MetaEvent metaEvent = inEvent as MetaEvent;

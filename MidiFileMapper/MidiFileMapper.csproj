@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
+    <ProductVersion>9.0.20706</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -173,6 +173,7 @@
     <Compile Include="SelectMappingPage.Designer.cs">
       <DependentUpon>SelectMappingPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="TextMap.cs" />
     <Compile Include="ValueRange.cs" />
     <Compile Include="WelcomePage.cs">
       <SubType>UserControl</SubType>

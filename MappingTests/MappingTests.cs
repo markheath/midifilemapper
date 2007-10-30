@@ -127,7 +127,7 @@ namespace MappingTests
             int duration = random.Next(1, 5000);
             int absoluteTime = random.Next(1, 5000);
             NoteOnEvent noteOnEvent = new NoteOnEvent(absoluteTime, channel, inNote, velocity, duration);
-            bool matched = mappingRules.Process(noteOnEvent);
+            bool matched = mappingRules.Process(noteOnEvent,null);
             Assert.IsFalse(matched);
         }
 
@@ -138,7 +138,7 @@ namespace MappingTests
             int duration = random.Next(1, 5000);
             int absoluteTime = random.Next(1, 5000);
             NoteOnEvent noteOnEvent = new NoteOnEvent(absoluteTime, inChannel, noteNumber, velocity, duration);
-            bool matched = mappingRules.Process(noteOnEvent);
+            bool matched = mappingRules.Process(noteOnEvent,null);
             Assert.IsTrue(matched);
             Assert.AreEqual(noteOnEvent.NoteNumber, noteNumber);
             Assert.AreEqual(noteOnEvent.Velocity, velocity);
@@ -156,7 +156,7 @@ namespace MappingTests
             int duration = random.Next(1, 5000);
             int absoluteTime = random.Next(1, 5000);
             NoteOnEvent noteOnEvent = new NoteOnEvent(absoluteTime, channel, inNote, velocity, duration);
-            bool matched = mappingRules.Process(noteOnEvent);
+            bool matched = mappingRules.Process(noteOnEvent,null);
             Assert.IsTrue(matched);
             Assert.AreEqual(noteOnEvent.NoteNumber, outNote);
             Assert.AreEqual(noteOnEvent.Velocity, velocity);
@@ -173,7 +173,7 @@ namespace MappingTests
             int duration = random.Next(1, 5000);
             int absoluteTime = random.Next(1, 5000);
             NoteOnEvent noteOnEvent = new NoteOnEvent(absoluteTime, channel, note, inVelocity, duration);
-            bool matched = mappingRules.Process(noteOnEvent);
+            bool matched = mappingRules.Process(noteOnEvent,null);
             Assert.IsTrue(matched);
             Assert.AreEqual(note, noteOnEvent.NoteNumber);
             Assert.AreEqual(outVelocity, noteOnEvent.Velocity);

@@ -17,15 +17,15 @@ namespace MarkHeath.MidiUtils
         public static AfterTouchMap LoadFromXmlNode(XmlNode mappingNode)
         {
             AfterTouchMap afterTouchMap = new AfterTouchMap();
-            afterTouchMap.name = mappingNode.Attributes["Name"].Value ?? "";
-            afterTouchMap.type = (AfterTouchType)Enum.Parse(typeof(AfterTouchType), mappingNode.Attributes["Type"].Value ?? "Channel");
-            afterTouchMap.inChannels = new InputValueParameters(mappingNode.Attributes["InChannel"].Value ?? "*");
-            afterTouchMap.outChannel = new NoteEventOutputParameters(mappingNode.Attributes["OutChannel"].Value ?? "*", 1, 16);
-            afterTouchMap.outValue = new NoteEventOutputParameters(mappingNode.Attributes["OutValue"].Value ?? "*", 0, 127);
+            afterTouchMap.name = XmlUtils.GetAttribute(mappingNode,"Name","");
+            afterTouchMap.type = (AfterTouchType)Enum.Parse(typeof(AfterTouchType), XmlUtils.GetAttribute(mappingNode,"Type","Channel"));
+            afterTouchMap.inChannels = new InputValueParameters(XmlUtils.GetAttribute(mappingNode,"InChannel","*"));
+            afterTouchMap.outChannel = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutChannel","*"), 1, 16);
+            afterTouchMap.outValue = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutValue","*"), 0, 127);
             return afterTouchMap;
         }
 
-        public bool Apply(MidiEvent inEvent)
+        public bool Apply(MidiEvent inEvent, EventRuleArgs args)
         {
             bool match = false;
             if ((inEvent.CommandCode == MidiCommandCode.ChannelAfterTouch) 

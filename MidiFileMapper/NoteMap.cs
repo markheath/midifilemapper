@@ -94,7 +94,7 @@ namespace MarkHeath.MidiUtils
             set { outDuration = value; }
         }
 
-        public bool Apply(MidiEvent inEvent)
+        public bool Apply(MidiEvent inEvent, EventRuleArgs args)
         {
             bool match = false;
             NoteOnEvent noteOnEvent = inEvent as NoteOnEvent;
