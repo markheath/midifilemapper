@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
+using System.IO;
 using NAudio.FileFormats.Map;
 using NAudio.Midi;
 
@@ -144,6 +145,11 @@ namespace MarkHeath.MidiUtils
                     PitchWheelMap pitchWheelMap = PitchWheelMap.LoadFromXmlNode(ruleNode);
                     mappingRules.eventRules.Add(pitchWheelMap);
                 }
+                else if (ruleNode.Name == "TextMap")
+                {
+                    TextMap map = TextMap.LoadFromXmlNode(ruleNode);
+                    mappingRules.eventRules.Add(map);
+                }
                 else if (ruleNode.Name == "Insert")
                 {
                     InsertRule insertRule = InsertRule.LoadFromXmlNode(ruleNode);
@@ -162,7 +168,7 @@ namespace MarkHeath.MidiUtils
             return mappingRules;
         }
 
-        public bool Process(MidiEvent inEvent)
+        public bool Process(MidiEvent inEvent, EventRuleArgs args)
         {
             NoteOnEvent noteEvent = inEvent as NoteOnEvent;
 
@@ -178,7 +184,7 @@ namespace MarkHeath.MidiUtils
 
                 foreach (IEventRule rule in noteRules)
                 {
-                    if (rule.Apply(inEvent))
+                    if (rule.Apply(inEvent, args))
                         return true;
 
                 }
@@ -190,7 +196,7 @@ namespace MarkHeath.MidiUtils
             // now see if we need to exclude this event
             foreach (IEventRule rule in excludeRules)
             {
-                if (rule.Apply(inEvent))
+                if (rule.Apply(inEvent, args))
                 {
                     return false;
                 }
@@ -199,7 +205,7 @@ namespace MarkHeath.MidiUtils
             bool updatedEvent = false;
             foreach (IEventRule rule in eventRules)
             {
-                updatedEvent |= rule.Apply(inEvent);
+                updatedEvent |= rule.Apply(inEvent, args);
             }
             return true; // updatedEvent;
         }
@@ -236,6 +242,7 @@ namespace MarkHeath.MidiUtils
             {
                 fileType = midiFile.FileFormat;
             }
+            EventRuleArgs eventRuleArgs = new EventRuleArgs(Path.GetFileNameWithoutExtension(sourceFile));
 
             MidiEventCollection outputFileEvents = new MidiEventCollection(fileType,midiFile.DeltaTicksPerQuarterNote);
             bool hasNotes = false;
@@ -257,7 +264,7 @@ namespace MarkHeath.MidiUtils
                 }
                 foreach (MidiEvent midiEvent in trackEvents)
                 {
-                    if (Process(midiEvent))
+                    if (Process(midiEvent,eventRuleArgs))
                     {
                         outputEvents.Add(midiEvent);
                         NoteOnEvent noteOnEvent = midiEvent as NoteOnEvent;

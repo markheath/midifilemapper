@@ -19,18 +19,18 @@ namespace MarkHeath.MidiUtils
         public static ControllerMap LoadFromXmlNode(XmlNode mappingNode)
         {
             ControllerMap controllerMap = new ControllerMap();
-            controllerMap.name = mappingNode.Attributes["Name"].Value ?? "";
-            controllerMap.inControllers = new InputValueParameters(mappingNode.Attributes["InController"].Value ?? "*");
-            controllerMap.inChannels = new InputValueParameters(mappingNode.Attributes["InChannel"].Value ?? "*");
-            controllerMap.inValues = new InputValueParameters(mappingNode.Attributes["InValue"].Value ?? "*");
-            controllerMap.outController = new NoteEventOutputParameters(mappingNode.Attributes["OutController"].Value ?? "*", 0, 127);
-            controllerMap.outChannel = new NoteEventOutputParameters(mappingNode.Attributes["OutChannel"].Value ?? "*", 1, 16);
-            controllerMap.outValue = new NoteEventOutputParameters(mappingNode.Attributes["OutValue"].Value ?? "*", 0, 127);
+            controllerMap.name = XmlUtils.GetAttribute(mappingNode,"Name","");
+            controllerMap.inControllers = new InputValueParameters(XmlUtils.GetAttribute(mappingNode,"InController","*"));
+            controllerMap.inChannels = new InputValueParameters(XmlUtils.GetAttribute(mappingNode,"InChannel","*"));
+            controllerMap.inValues = new InputValueParameters(XmlUtils.GetAttribute(mappingNode,"InValue","*"));
+            controllerMap.outController = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutController","*"), 0, 127);
+            controllerMap.outChannel = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutChannel","*"), 1, 16);
+            controllerMap.outValue = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutValue","*"), 0, 127);
             return controllerMap;
         }
 
 
-        public bool Apply(MidiEvent inEvent)
+        public bool Apply(MidiEvent inEvent, EventRuleArgs args)
         {
             bool match = false;
             if (inEvent.CommandCode == MidiCommandCode.ControlChange)

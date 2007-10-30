@@ -29,6 +29,30 @@ namespace MappingTests
         }
 
         [Test]
+        public void TrackName()
+        {
+            string mappingFileName = ".\\TestFiles\\TrackNameToFilename.xml";
+            MidiMappingRules mappingRules = MidiMappingRules.LoadFromXml(mappingFileName);
+            string inFileName = ".\\TestFiles\\SimpleTestType0.mid";
+            string outFileName = ".\\OutputFiles\\SimpleTestType0Track.mid";
+            bool converted = mappingRules.ConvertFile(inFileName, outFileName, -1);
+            Assert.IsTrue(converted,"Failed to convert the file");
+
+            MidiFile outMidiFile = new MidiFile(outFileName);
+            bool foundTrackName = false;
+            foreach (MidiEvent midiEvent in outMidiFile.Events[0])
+            {
+                TextEvent textEvent = midiEvent as TextEvent;
+                if (textEvent != null && textEvent.MetaEventType == MetaEventType.SequenceTrackName)
+                {
+                    foundTrackName = true;
+                    Assert.AreEqual(textEvent.Text, "SimpleTestType0");
+                }
+            }
+            Assert.IsTrue(foundTrackName,"Didn't find an updated TrackName");
+        }
+
+        [Test]
         public void ExcludeRule()
         {
             string mappingFileName = ".\\TestFiles\\ExcludeMarkers.xml";

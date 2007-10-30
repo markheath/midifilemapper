@@ -12,8 +12,8 @@
  
 !include LogicLib.nsh
 
-!define VERSION "0.1"
-!define FULLVERSION "0.1.0.0"
+!define VERSION "0.2"
+!define FULLVERSION "0.2.26.0"
 !define PRODUCT_NAME "MIDI File Mapper"
 !define EXECUTABLE_NAME "MidiFileMapper.exe"
 
@@ -100,7 +100,6 @@ Section "Program Files (required)"
   File "${EXECUTABLE_NAME}"
   File "${EXECUTABLE_NAME}.config"
   File "NAudio.dll"
-  File "midi_file_mapper.html"
   File "GM to EZdrummer.xml"
   File "GM to Latin Percussion EZX.xml"
   File "GM to AD.xml"
@@ -144,8 +143,7 @@ Section "Uninstall"
   Delete "$INSTDIR\GM to EZdrummer.xml"
   Delete "$INSTDIR\GM to Latin Percussion EZX.xml"
   Delete "$INSTDIR\GM to AD.xml"
-  Delete "$INSTDIR\midi_file_mapper.html"
-
+  
   ; Remove shortcuts, if any
   Delete "$SMPROGRAMS\${PRODUCT_NAME}\*.*"
 

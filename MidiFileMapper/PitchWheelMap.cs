@@ -16,14 +16,14 @@ namespace MarkHeath.MidiUtils
         public static PitchWheelMap LoadFromXmlNode(XmlNode mappingNode)
         {
             PitchWheelMap pitchWheelMap = new PitchWheelMap();
-            pitchWheelMap.name = mappingNode.Attributes["Name"].Value ?? "";
-            pitchWheelMap.inChannels = new InputValueParameters(mappingNode.Attributes["InChannel"].Value ?? "*");
-            pitchWheelMap.outChannel = new NoteEventOutputParameters(mappingNode.Attributes["OutChannel"].Value ?? "*", 1, 16);
-            pitchWheelMap.outValue = new NoteEventOutputParameters(mappingNode.Attributes["OutValue"].Value ?? "*", 0, 0x4000);
+            pitchWheelMap.name = XmlUtils.GetAttribute(mappingNode,"Name","");
+            pitchWheelMap.inChannels = new InputValueParameters(XmlUtils.GetAttribute(mappingNode,"InChannel","*"));
+            pitchWheelMap.outChannel = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutChannel","*"), 1, 16);
+            pitchWheelMap.outValue = new NoteEventOutputParameters(XmlUtils.GetAttribute(mappingNode,"OutValue","*"), 0, 0x4000);
             return pitchWheelMap;
         }
 
-        public bool Apply(MidiEvent inEvent)
+        public bool Apply(MidiEvent inEvent, EventRuleArgs args)
         {
             bool match = false;
             if (inEvent.CommandCode == MidiCommandCode.PitchWheelChange)

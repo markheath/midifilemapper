@@ -8,14 +8,14 @@ namespace MarkHeath.MidiUtils
 {
     class InsertRule
     {
-        InsertEventType eventType;
+        TextEventType eventType;
         string value;
         long time;
 
         public static InsertRule LoadFromXmlNode(XmlNode insertNode)
         {
             InsertRule insertRule = new InsertRule();
-            insertRule.eventType = (InsertEventType)Enum.Parse(typeof(InsertEventType), XmlUtils.GetAttribute(insertNode,"EventType",""));
+            insertRule.eventType = (TextEventType)Enum.Parse(typeof(TextEventType), XmlUtils.GetAttribute(insertNode,"EventType",""));
             insertRule.time = long.Parse(XmlUtils.GetAttribute(insertNode,"Time","0"));
             insertRule.value = XmlUtils.GetAttribute(insertNode,"Value","");
             return insertRule;
@@ -25,21 +25,23 @@ namespace MarkHeath.MidiUtils
         {
             switch (eventType)
             {
-                case InsertEventType.Copyright:
+                case TextEventType.Copyright:
                     return new TextEvent(value, MetaEventType.Copyright, time);
-                case InsertEventType.Marker:
+                case TextEventType.Marker:
                     return new TextEvent(value, MetaEventType.Marker, time);
-                case InsertEventType.Text:
+                case TextEventType.Text:
                     return new TextEvent(value, MetaEventType.TextEvent, time);
+                // don't support insert sequence track name
             }
             return null;
         }
     }
 
-    enum InsertEventType
+    public enum TextEventType
     {
         Text,
         Marker,
-        Copyright
+        Copyright,
+        TrackName
     }
 }
