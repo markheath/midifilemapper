@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.2.26.0")]
-[assembly: AssemblyFileVersion("0.2.26.0")]
+[assembly: AssemblyVersion("0.2.27.0")]
+[assembly: AssemblyFileVersion("0.2.27.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -130,6 +130,9 @@ using System.Runtime.InteropServices;
 // build 26 - 30 Oct 2007
 // Introduced a new TextMap rule
 // Fixed loading of PitchWheelMap, AfterTouchMap, ControllerMap
+// build 27 - 3 Nov 2007
+// fixed reading Cubase .drm files (29 Sep 2007)
+// added ability to exclude KeySignature
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)

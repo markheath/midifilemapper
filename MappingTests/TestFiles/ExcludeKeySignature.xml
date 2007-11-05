@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+	<General
+	  Name="Exclude Key Signature"
+	  Author="Mark Heath"
+	  Description="Removes all KeySignature events from a MIDI file"
+    />
+	<NoteMap InNote="*" OutNote="*" />
+	<Exclude EventType="KeySignature" />
+</MidiMappingRules>

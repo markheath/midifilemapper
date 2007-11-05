@@ -52,13 +52,7 @@ namespace MappingTests
             Assert.IsTrue(foundTrackName,"Didn't find an updated TrackName");
         }
 
-        [Test]
-        public void ExcludeRule()
-        {
-            string mappingFileName = ".\\TestFiles\\ExcludeMarkers.xml";
-            MidiMappingRules mappingRules = MidiMappingRules.LoadFromXml(mappingFileName);
-            // TODO: check it can remove markers
-        }
+
 
         [Test]
         public void TransposeTestType0()

@@ -1,0 +1,1815 @@
+<DrumMap>
+   <string name="Name" value="EZD Map"/>
+   <list name="Quantize" type="list">
+      <item>
+         <int name="Grid" value="4"/>
+         <int name="Type" value="0"/>
+         <float name="Swing" value="0"/>
+         <float name="MaxDiff" value="0"/>
+         <int name="Tuplet" value="1"/>
+         <int name="Move CC" value="0"/>
+      </item>
+   </list>
+   <list name="Map" type="list">
+      <item>
+         <int name="INote" value="0"/>
+         <int name="ONote" value="0"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="0"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="1"/>
+         <int name="ONote" value="1"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="1"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="2"/>
+         <int name="ONote" value="2"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="2"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="3"/>
+         <int name="ONote" value="3"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="3"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="4"/>
+         <int name="ONote" value="4"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="4"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="5"/>
+         <int name="ONote" value="5"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="5"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="6"/>
+         <int name="ONote" value="6"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="6"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="7"/>
+         <int name="ONote" value="7"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="7"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="8"/>
+         <int name="ONote" value="8"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="8"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="9"/>
+         <int name="ONote" value="9"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="9"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="10"/>
+         <int name="ONote" value="10"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="10"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="11"/>
+         <int name="ONote" value="11"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="11"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="12"/>
+         <int name="ONote" value="12"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="12"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="13"/>
+         <int name="ONote" value="13"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="13"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="14"/>
+         <int name="ONote" value="14"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="14"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="15"/>
+         <int name="ONote" value="15"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="15"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="16"/>
+         <int name="ONote" value="16"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="16"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="17"/>
+         <int name="ONote" value="17"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="17"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="18"/>
+         <int name="ONote" value="18"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="18"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="19"/>
+         <int name="ONote" value="19"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="19"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="20"/>
+         <int name="ONote" value="20"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="20"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="21"/>
+         <int name="ONote" value="21"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="21"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="22"/>
+         <int name="ONote" value="22"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="22"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="23"/>
+         <int name="ONote" value="23"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="23"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="24"/>
+         <int name="ONote" value="24"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="24"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Open Hats 1"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="25"/>
+         <int name="ONote" value="25"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="25"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Open Hats 2"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="26"/>
+         <int name="ONote" value="26"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="26"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Open Hats 3"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="27"/>
+         <int name="ONote" value="27"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="27"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash A Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="28"/>
+         <int name="ONote" value="28"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="28"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash A Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="29"/>
+         <int name="ONote" value="29"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="29"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash A Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="30"/>
+         <int name="ONote" value="30"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="30"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash B Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="31"/>
+         <int name="ONote" value="31"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="31"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash B Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="32"/>
+         <int name="ONote" value="32"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="32"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash B Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="33"/>
+         <int name="ONote" value="33"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="33"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Snare Left"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="34"/>
+         <int name="ONote" value="34"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="34"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Kick Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="35"/>
+         <int name="ONote" value="35"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="35"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Kick Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="36"/>
+         <int name="ONote" value="36"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="36"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Kick"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="37"/>
+         <int name="ONote" value="37"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="37"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Sidestick"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="38"/>
+         <int name="ONote" value="38"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="38"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Snare Right"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="39"/>
+         <int name="ONote" value="39"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="39"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Snare Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="40"/>
+         <int name="ONote" value="40"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="40"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Snare Rimshot"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="41"/>
+         <int name="ONote" value="41"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="41"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="FT Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="42"/>
+         <int name="ONote" value="42"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="42"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Closed Hats (GM)"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="43"/>
+         <int name="ONote" value="43"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="43"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Floor Tom"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="44"/>
+         <int name="ONote" value="44"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="44"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Pedal (GM)"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="45"/>
+         <int name="ONote" value="45"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="45"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="RT2 Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="46"/>
+         <int name="ONote" value="46"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="46"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Open Hats (GM)"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="47"/>
+         <int name="ONote" value="47"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="47"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Rock Tom 2"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="48"/>
+         <int name="ONote" value="48"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="48"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="RT 1 Alias"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="49"/>
+         <int name="ONote" value="49"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="49"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash A (GM)"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="50"/>
+         <int name="ONote" value="50"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="50"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Rack Tom 1"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="51"/>
+         <int name="ONote" value="51"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="51"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Ride Bow"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="52"/>
+         <int name="ONote" value="52"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="52"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash B (GM)"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="53"/>
+         <int name="ONote" value="53"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="53"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Ride Bell"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="54"/>
+         <int name="ONote" value="54"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="54"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash A Muted"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="55"/>
+         <int name="ONote" value="55"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="55"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash A Sustained"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="56"/>
+         <int name="ONote" value="56"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="56"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="CowBell"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="57"/>
+         <int name="ONote" value="57"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="57"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash B Sustained"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="58"/>
+         <int name="ONote" value="58"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="58"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Crash B Muted"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="59"/>
+         <int name="ONote" value="59"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="59"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Ride Punch"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="60"/>
+         <int name="ONote" value="60"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="60"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Open Max"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="61"/>
+         <int name="ONote" value="61"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="61"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Closed Tip"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="62"/>
+         <int name="ONote" value="62"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="62"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Tight Edge"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="63"/>
+         <int name="ONote" value="63"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="63"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Tight Tip"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="64"/>
+         <int name="ONote" value="64"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="64"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Seq Hard"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="65"/>
+         <int name="ONote" value="65"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="65"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value="Hats Seq Soft"/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="66"/>
+         <int name="ONote" value="66"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="66"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="67"/>
+         <int name="ONote" value="67"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="67"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="68"/>
+         <int name="ONote" value="68"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="68"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="69"/>
+         <int name="ONote" value="69"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="69"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="70"/>
+         <int name="ONote" value="70"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="70"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="71"/>
+         <int name="ONote" value="71"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="71"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="72"/>
+         <int name="ONote" value="72"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="72"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="73"/>
+         <int name="ONote" value="73"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="73"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="74"/>
+         <int name="ONote" value="74"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="74"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="75"/>
+         <int name="ONote" value="75"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="75"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="76"/>
+         <int name="ONote" value="76"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="76"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="77"/>
+         <int name="ONote" value="77"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="77"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="78"/>
+         <int name="ONote" value="78"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="78"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="79"/>
+         <int name="ONote" value="79"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="79"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="80"/>
+         <int name="ONote" value="80"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="80"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="81"/>
+         <int name="ONote" value="81"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="81"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="82"/>
+         <int name="ONote" value="82"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="82"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="83"/>
+         <int name="ONote" value="83"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="83"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="84"/>
+         <int name="ONote" value="84"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="84"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="85"/>
+         <int name="ONote" value="85"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="85"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="86"/>
+         <int name="ONote" value="86"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="86"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="87"/>
+         <int name="ONote" value="87"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="87"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="88"/>
+         <int name="ONote" value="88"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="88"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="89"/>
+         <int name="ONote" value="89"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="89"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="90"/>
+         <int name="ONote" value="90"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="90"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="91"/>
+         <int name="ONote" value="91"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="91"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="92"/>
+         <int name="ONote" value="92"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="92"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="93"/>
+         <int name="ONote" value="93"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="93"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="94"/>
+         <int name="ONote" value="94"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="94"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="95"/>
+         <int name="ONote" value="95"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="95"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="96"/>
+         <int name="ONote" value="96"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="96"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="97"/>
+         <int name="ONote" value="97"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="97"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="98"/>
+         <int name="ONote" value="98"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="98"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="99"/>
+         <int name="ONote" value="99"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="99"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="100"/>
+         <int name="ONote" value="100"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="100"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="101"/>
+         <int name="ONote" value="101"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="101"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="102"/>
+         <int name="ONote" value="102"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="102"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="103"/>
+         <int name="ONote" value="103"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="103"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="104"/>
+         <int name="ONote" value="104"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="104"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="105"/>
+         <int name="ONote" value="105"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="105"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="106"/>
+         <int name="ONote" value="106"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="106"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="107"/>
+         <int name="ONote" value="107"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="107"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="108"/>
+         <int name="ONote" value="108"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="108"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="109"/>
+         <int name="ONote" value="109"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="109"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="110"/>
+         <int name="ONote" value="110"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="110"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="111"/>
+         <int name="ONote" value="111"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="111"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="112"/>
+         <int name="ONote" value="112"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="112"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="113"/>
+         <int name="ONote" value="113"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="113"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="114"/>
+         <int name="ONote" value="114"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="114"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="115"/>
+         <int name="ONote" value="115"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="115"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="116"/>
+         <int name="ONote" value="116"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="116"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="117"/>
+         <int name="ONote" value="117"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="117"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="118"/>
+         <int name="ONote" value="118"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="118"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="119"/>
+         <int name="ONote" value="119"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="119"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="120"/>
+         <int name="ONote" value="120"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="120"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="121"/>
+         <int name="ONote" value="121"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="121"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="122"/>
+         <int name="ONote" value="122"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="122"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="123"/>
+         <int name="ONote" value="123"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="123"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="124"/>
+         <int name="ONote" value="124"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="124"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="125"/>
+         <int name="ONote" value="125"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="125"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="126"/>
+         <int name="ONote" value="126"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="126"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+      <item>
+         <int name="INote" value="127"/>
+         <int name="ONote" value="127"/>
+         <int name="Channel" value="9"/>
+         <float name="Length" value="200"/>
+         <int name="Mute" value="0"/>
+         <int name="DisplayNote" value="127"/>
+         <int name="HeadSymbol" value="0"/>
+         <int name="Voice" value="0"/>
+         <int name="PortIndex" value="0"/>
+         <string name="Name" value=""/>
+         <int name="QuantizeIndex" value="0"/>
+      </item>
+   </list>
+   <list name="Order" type="int">
+      <item value="0"/>
+      <item value="1"/>
+      <item value="2"/>
+      <item value="3"/>
+      <item value="4"/>
+      <item value="5"/>
+      <item value="6"/>
+      <item value="7"/>
+      <item value="8"/>
+      <item value="9"/>
+      <item value="10"/>
+      <item value="11"/>
+      <item value="12"/>
+      <item value="13"/>
+      <item value="14"/>
+      <item value="15"/>
+      <item value="16"/>
+      <item value="17"/>
+      <item value="18"/>
+      <item value="19"/>
+      <item value="20"/>
+      <item value="21"/>
+      <item value="22"/>
+      <item value="23"/>
+      <item value="24"/>
+      <item value="25"/>
+      <item value="26"/>
+      <item value="27"/>
+      <item value="28"/>
+      <item value="29"/>
+      <item value="30"/>
+      <item value="31"/>
+      <item value="32"/>
+      <item value="33"/>
+      <item value="34"/>
+      <item value="35"/>
+      <item value="36"/>
+      <item value="37"/>
+      <item value="38"/>
+      <item value="39"/>
+      <item value="40"/>
+      <item value="41"/>
+      <item value="42"/>
+      <item value="43"/>
+      <item value="44"/>
+      <item value="45"/>
+      <item value="46"/>
+      <item value="47"/>
+      <item value="48"/>
+      <item value="49"/>
+      <item value="50"/>
+      <item value="51"/>
+      <item value="52"/>
+      <item value="53"/>
+      <item value="54"/>
+      <item value="55"/>
+      <item value="56"/>
+      <item value="57"/>
+      <item value="58"/>
+      <item value="59"/>
+      <item value="60"/>
+      <item value="61"/>
+      <item value="62"/>
+      <item value="63"/>
+      <item value="64"/>
+      <item value="65"/>
+      <item value="66"/>
+      <item value="67"/>
+      <item value="68"/>
+      <item value="69"/>
+      <item value="70"/>
+      <item value="71"/>
+      <item value="72"/>
+      <item value="73"/>
+      <item value="74"/>
+      <item value="75"/>
+      <item value="76"/>
+      <item value="77"/>
+      <item value="78"/>
+      <item value="79"/>
+      <item value="80"/>
+      <item value="81"/>
+      <item value="82"/>
+      <item value="83"/>
+      <item value="84"/>
+      <item value="85"/>
+      <item value="86"/>
+      <item value="87"/>
+      <item value="88"/>
+      <item value="89"/>
+      <item value="90"/>
+      <item value="91"/>
+      <item value="92"/>
+      <item value="93"/>
+      <item value="94"/>
+      <item value="95"/>
+      <item value="96"/>
+      <item value="97"/>
+      <item value="98"/>
+      <item value="99"/>
+      <item value="100"/>
+      <item value="101"/>
+      <item value="102"/>
+      <item value="103"/>
+      <item value="104"/>
+      <item value="105"/>
+      <item value="106"/>
+      <item value="107"/>
+      <item value="108"/>
+      <item value="109"/>
+      <item value="110"/>
+      <item value="111"/>
+      <item value="112"/>
+      <item value="113"/>
+      <item value="114"/>
+      <item value="115"/>
+      <item value="116"/>
+      <item value="117"/>
+      <item value="118"/>
+      <item value="119"/>
+      <item value="120"/>
+      <item value="121"/>
+      <item value="122"/>
+      <item value="123"/>
+      <item value="124"/>
+      <item value="125"/>
+      <item value="126"/>
+      <item value="127"/>
+   </list>
+   <list name="OutputDevices" type="list">
+      <item>
+         <string name="DeviceName" value="Default Device"/>
+         <string name="PortName" value="Default Port"/>
+      </item>
+   </list>
+</DrumMap>

@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DrumMapTests.cs" />
+    <Compile Include="ExcludeTests.cs" />
     <Compile Include="FileTests.cs" />
     <Compile Include="MappingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,8 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MappingTests.nunit" />
+    <None Include="TestFiles\EZD Map.drm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestFiles\ExcludeKeySignature.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestFiles\ExcludeMarkers.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

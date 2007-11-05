@@ -91,6 +91,10 @@ namespace MarkHeath.MidiUtils
                 case ExcludeEventType.TrackSequenceNumber:
                     exclude = (metaEvent != null) && (metaEvent.MetaEventType == MetaEventType.TrackSequenceNumber);
                     break;
+                case ExcludeEventType.KeySignature:
+                    // undocumented feature - key signature can be removed (not recommended)
+                    exclude = (metaEvent != null) && (metaEvent.MetaEventType == MetaEventType.KeySignature);
+                    break;
                 case ExcludeEventType.NonStandard:
                     if(metaEvent != null)
                     {

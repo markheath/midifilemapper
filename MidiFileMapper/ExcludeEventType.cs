@@ -30,5 +30,6 @@ namespace MarkHeath.MidiUtils
         StopSequence,
         StartSequence,
         TimingClock,
+        KeySignature,
     }
 }
