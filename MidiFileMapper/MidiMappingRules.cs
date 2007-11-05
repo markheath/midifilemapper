@@ -69,38 +69,44 @@ namespace MarkHeath.MidiUtils
             }
             foreach (XmlNode mapNode in xmlDocument.DocumentElement.ChildNodes)
             {
-                if (mapNode.Name == "List" && mapNode.Attributes["name"].Value == "Map")
+                if (mapNode.Name == "list" && mapNode.Attributes["name"].Value == "Map")
                 {
-                    foreach (XmlNode node in xmlDocument.DocumentElement.ChildNodes)
+                    foreach (XmlNode itemNode in mapNode.ChildNodes)
                     {
-                        NoteMap mappingRule = new NoteMap();
-                        if (mapNode.Name == "INote")
+                        if (itemNode.Name == "item")
                         {
-                            mappingRule.InNotes = new InputValueParameters(mapNode.Attributes["value"].Value);
-                        }
-                        else if (mapNode.Name == "Channel")
-                        {
-                            mappingRule.OutChannel = new NoteEventOutputParameters((Int32.Parse(mapNode.Attributes["value"].Value) + 1).ToString(), 1, 16);
-                        }
-                        else if (mapNode.Name == "ONote")
-                        {
-                            mappingRule.OutNote = new NoteEventOutputParameters(mapNode.Attributes["value"].Value, 0, 127);
-                        }
-                        else if (mapNode.Name == "Name")
-                        {
-                            mappingRule.Name = mapNode.Attributes["value"].Value;
-                        }
+                            NoteMap mappingRule = new NoteMap();
+                            foreach (XmlNode node in itemNode.ChildNodes)
+                            {
+                                string name = node.Attributes["name"].Value;
+                                if (name == "INote")
+                                {
+                                    mappingRule.InNotes = new InputValueParameters(node.Attributes["value"].Value);
+                                }
+                                else if (name == "Channel")
+                                {
+                                    mappingRule.OutChannel = new NoteEventOutputParameters((Int32.Parse(node.Attributes["value"].Value) + 1).ToString(), 1, 16);
+                                }
+                                else if (name == "ONote")
+                                {
+                                    mappingRule.OutNote = new NoteEventOutputParameters(node.Attributes["value"].Value, 0, 127);
+                                }
+                                else if (name == "Name")
+                                {
+                                    mappingRule.Name = node.Attributes["value"].Value;
+                                }
 
-                        // TODO: consider support for:
-                        // Length (float)  not exactly sure what this is - 200 a common value
-                        // Mute  - mutes this note?
-                        // DisplayNote - ?
-                        // HeadSymbol
-                        // Voice
-                        // PortIndex
-                        // QuantizeIndex
-
-                        mappingRules.noteRules.Add(mappingRule);
+                                // TODO: consider support for:
+                                // Length (float)  not exactly sure what this is - 200 a common value
+                                // Mute  - mutes this note?
+                                // DisplayNote - ?
+                                // HeadSymbol
+                                // Voice
+                                // PortIndex
+                                // QuantizeIndex
+                            }
+                            mappingRules.noteRules.Add(mappingRule);
+                        }
                     }
                 }
             }
@@ -226,6 +232,15 @@ namespace MarkHeath.MidiUtils
             }
         }
 
+        public List<IEventRule> ExcludeRules
+        {
+            get
+            {
+                return excludeRules;
+            }
+
+        }
+
         public List<MidiEvent> InsertEvents
         {
             get
@@ -233,6 +248,8 @@ namespace MarkHeath.MidiUtils
                 return insertEvents;
             }
         }
+
+
 
 
         public bool ConvertFile(string sourceFile, string destFile, int fileType)
