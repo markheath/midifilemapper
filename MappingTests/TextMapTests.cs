@@ -21,12 +21,21 @@ namespace MappingTests
             CheckTextMap("Hello World", outFileName, MetaEventType.SequenceTrackName, mappingRules, args);
         }
 
+        [Test]
+        public void ChangeTextEvent()
+        {
+            MidiMappingRules mappingRules = new MidiMappingRules();
+            string outText = "out text";
+            mappingRules.EventRules.Add(CreateTextMap(MetaEventType.TextEvent, outText));
+
+            CheckTextMap("Hello World", outText, MetaEventType.TextEvent, mappingRules, new EventRuleArgs(""));
+        }
 
         private TextMap CreateTextMap(MetaEventType eventType, string outValue)
         {
             TextMap textMap = new TextMap();
             textMap.EventType = eventType;
-            textMap.OutValue = outValue;
+            textMap.OutValue = outValue;            
             return textMap;
         }
 
