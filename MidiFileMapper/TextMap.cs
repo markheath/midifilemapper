@@ -3,63 +3,67 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using NAudio.Midi;
+using System.Text.RegularExpressions;
 
 
 namespace MarkHeath.MidiUtils
 {
     public class TextMap : IEventRule
     {
-        private string name;
-        private string outValue;
-        private MetaEventType eventType;
-
+        private Regex inRegex;
+        private string inValue;
         private const string existingValue = "{VALUE}";
         private const string fileName = "{FILENAME}";
 
         public static TextMap LoadFromXmlNode(XmlNode mappingNode)
         {
             TextMap mappingRule = new TextMap();
-            mappingRule.name = XmlUtils.GetAttribute(mappingNode,"Name","");
-            mappingRule.eventType = InsertEventTypeToMetaEventType((TextEventType)Enum.Parse(typeof(TextEventType), XmlUtils.GetAttribute(mappingNode, "EventType", "")));
-            mappingRule.outValue = XmlUtils.GetAttribute(mappingNode, "OutValue", existingValue);
+            mappingRule.Name = XmlUtils.GetAttribute(mappingNode,"Name","");
+            mappingRule.EventType = InsertEventTypeToMetaEventType((TextEventType)Enum.Parse(typeof(TextEventType), XmlUtils.GetAttribute(mappingNode, "EventType", "")));
+            mappingRule.OutValue = XmlUtils.GetAttribute(mappingNode, "OutValue", existingValue);
+            mappingRule.InValue = XmlUtils.GetAttribute(mappingNode, "InValue", "");
 
             return mappingRule;
         }
 
         public TextMap()
         {
-            name = "";
-            outValue = existingValue;
+            Name = "";
+            OutValue = existingValue;
+            InValue = "";
+            EventType = MetaEventType.TextEvent;
         }
+        
+        public string OutValue { get; set; }
+        public string Name { get; set; }
+        public MetaEventType EventType { get; set; }
 
-
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
+        public string InValue 
+        { 
+            get
+            {
+                return inValue;
+            }
+            set
+            {
+                inValue = value;
+                inRegex = new Regex(inValue);
+            }
         }
-
-        public string OutValue
-        {
-            get { return outValue; }
-            set { outValue = value; }
-        }
-
-        public MetaEventType EventType
-        {
-            get { return eventType; }
-            set { eventType = value; }
-        }
+        
 
         public bool Apply(MidiEvent inEvent, EventRuleArgs args)
         {
             bool match = false;
 
             TextEvent textEvent = inEvent as TextEvent;
-            if (textEvent != null && textEvent.MetaEventType == eventType)
+            if (textEvent != null && textEvent.MetaEventType == EventType)
             {
-                textEvent.Text = ProcessText(textEvent.Text,args);
-                match = true;
+                if (textEvent.Text.Length == 0 || inRegex.Match(textEvent.Text).Success)
+                {
+                    textEvent.Text = ProcessText(textEvent.Text, args);
+                    match = true;
+                }
             }
 
             return match;
@@ -67,7 +71,7 @@ namespace MarkHeath.MidiUtils
 
         private string ProcessText(string oldValue, EventRuleArgs args)
         {
-            string processed = outValue.Replace(existingValue, oldValue);
+            string processed = OutValue.Replace(existingValue, oldValue);
             processed = processed.Replace(fileName,args.OutFileName);
             return processed;
         }
