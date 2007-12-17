@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.20706</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0E5DF3C4-4290-4016-8C1A-58A92F2FB838}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -70,22 +70,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AfterTouchMap.cs" />
-    <Compile Include="ControllerMap.cs" />
+    <Compile Include="Rules\AfterTouchMap.cs" />
+    <Compile Include="Rules\ControllerMap.cs" />
     <Compile Include="ConvertFilesPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ConvertFilesPage.Designer.cs">
       <DependentUpon>ConvertFilesPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExcludeEventType.cs" />
-    <Compile Include="ExcludeRule.cs" />
-    <Compile Include="IEventRule.cs" />
+    <Compile Include="Rules\ExcludeEventType.cs" />
+    <Compile Include="Rules\ExcludeRule.cs" />
+    <Compile Include="Rules\IEventRule.cs" />
     <Compile Include="InputValueParameters.cs" />
-    <Compile Include="InsertRule.cs" />
+    <Compile Include="Rules\InsertRule.cs" />
     <Compile Include="IWizardPage.cs" />
     <Compile Include="MidiFileMapper.cs" />
-    <Compile Include="NoteMap.cs" />
+    <Compile Include="Rules\NoteMap.cs" />
     <Compile Include="MidiMappingRules.cs" />
     <Compile Include="MidiFileMapperForm.cs">
       <SubType>Form</SubType>
@@ -100,7 +100,8 @@
     <Compile Include="OptionsPage.Designer.cs">
       <DependentUpon>OptionsPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="PitchWheelMap.cs" />
+    <Compile Include="Rules\PitchWheelMap.cs" />
+    <Compile Include="Rules\TextMatchType.cs" />
     <Compile Include="SelectFilesPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -173,7 +174,7 @@
     <Compile Include="SelectMappingPage.Designer.cs">
       <DependentUpon>SelectMappingPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="TextMap.cs" />
+    <Compile Include="Rules\TextMap.cs" />
     <Compile Include="ValueRange.cs" />
     <Compile Include="WelcomePage.cs">
       <SubType>UserControl</SubType>
@@ -184,25 +185,25 @@
     <Compile Include="XmlUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DFH1 to DFH EZX.xml">
+    <Content Include="Maps\DFH1 to DFH EZX.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="EZD to AD.xml">
+    <Content Include="Maps\EZD to AD.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Fixed Note Durations - 1 Tick.xml">
+    <Content Include="Maps\Fixed Note Durations - 1 Tick.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="GM to AD.xml">
+    <Content Include="Maps\GM to AD.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="GM to Latin Percussion EZX.xml">
+    <Content Include="Maps\GM to Latin Percussion EZX.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="GM to EZdrummer.xml">
+    <Content Include="Maps\GM to EZdrummer.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Transpose2SemitonesUp.xml">
+    <Content Include="Maps\Transpose2SemitonesUp.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -55,16 +55,17 @@ namespace MarkHeath.MidiUtils
         private void PopulateMappingCombo()
         {            
             string appPath = Path.GetDirectoryName(Application.ExecutablePath);
-            foreach (string xmlFile in Directory.GetFiles(appPath, "*.xml"))
+            string mapPath = Path.Combine(appPath, "Maps");
+            foreach (string xmlFile in Directory.GetFiles(mapPath, "*.xml"))
             {
                 AddXmlMappingFile(xmlFile);
             }
             // add from Cakewalk directory
             AddSonarDrumMaps();
             // add from working directory
-            AddSonarDrumMaps(appPath);
+            AddSonarDrumMaps(mapPath);
             // TODO: Cubase drum maps from Cubase directory
-            AddCubaseDrumMaps(appPath);
+            AddCubaseDrumMaps(mapPath);
 
             // make a selection
             foreach (ComboItem comboItem in listBoxMapping.Items)
