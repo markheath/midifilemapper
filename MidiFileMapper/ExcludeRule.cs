@@ -85,7 +85,7 @@ namespace MarkHeath.MidiUtils
                 case ExcludeEventType.TrackInstrumentName:
                     exclude = (metaEvent != null) && (metaEvent.MetaEventType == MetaEventType.TrackInstrumentName);
                     break;
-                case ExcludeEventType.SequenceTrackName:
+                case ExcludeEventType.TrackName:
                     exclude = (metaEvent != null) && (metaEvent.MetaEventType == MetaEventType.SequenceTrackName);
                     break;
                 case ExcludeEventType.TrackSequenceNumber:

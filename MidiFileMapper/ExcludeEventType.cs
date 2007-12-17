@@ -24,7 +24,7 @@ namespace MarkHeath.MidiUtils
         DeviceName,
         ProgramName,
         TrackInstrumentName,
-        SequenceTrackName,
+        TrackName,
         TrackSequenceNumber,
         ContinueSequence,
         StopSequence,

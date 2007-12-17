@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.2.28.0")]
-[assembly: AssemblyFileVersion("0.2.28.0")]
+[assembly: AssemblyVersion("0.2.29.0")]
+[assembly: AssemblyFileVersion("0.2.29.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -135,6 +135,8 @@ using System.Runtime.InteropServices;
 // added ability to exclude KeySignature
 // build 28 12 Dec 2007
 // added regex matching to TextMap rule
+// build 29 17 Dec 2007
+// exclude rule changed SequenceTrackName to TrackName to bring into line with TextMap rule
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)
