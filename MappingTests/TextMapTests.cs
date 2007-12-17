@@ -14,7 +14,7 @@ namespace MappingTests
         public void TrackNameMap()
         {
             MidiMappingRules mappingRules = new MidiMappingRules();
-            mappingRules.EventRules.Add(CreateTextMap(MetaEventType.SequenceTrackName, "{FILENAME}"));
+            mappingRules.EventRules.Add(CreateTextMap(MetaEventType.SequenceTrackName, "", "{FILENAME}"));
             string outFileName ="BlahblahBlah"; 
             EventRuleArgs args = new EventRuleArgs(outFileName);
 
@@ -26,14 +26,28 @@ namespace MappingTests
         {
             MidiMappingRules mappingRules = new MidiMappingRules();
             string outText = "out text";
-            mappingRules.EventRules.Add(CreateTextMap(MetaEventType.TextEvent, outText));
+            mappingRules.EventRules.Add(CreateTextMap(MetaEventType.TextEvent, "", outText));
 
             CheckTextMap("Hello World", outText, MetaEventType.TextEvent, mappingRules, new EventRuleArgs(""));
         }
 
-        private TextMap CreateTextMap(MetaEventType eventType, string outValue)
+        [Test]
+        public void MatchText()
+        {
+            MidiMappingRules mappingRules = new MidiMappingRules();
+            string outText = "out text";
+            string matchText = "testing.com";
+            mappingRules.EventRules.Add(CreateTextMap(MetaEventType.TextEvent, matchText, outText));
+
+            CheckTextMap("Hello World", "Hello World", MetaEventType.TextEvent, mappingRules, new EventRuleArgs(""));
+            CheckTextMap(matchText, "out text", MetaEventType.TextEvent, mappingRules, new EventRuleArgs(""));
+            CheckTextMap("XXtesting.comXX", "out text", MetaEventType.TextEvent, mappingRules, new EventRuleArgs(""));
+        }
+
+        private TextMap CreateTextMap(MetaEventType eventType, string inValue, string outValue)
         {
             TextMap textMap = new TextMap();
+            textMap.InValue = inValue;
             textMap.EventType = eventType;
             textMap.OutValue = outValue;            
             return textMap;

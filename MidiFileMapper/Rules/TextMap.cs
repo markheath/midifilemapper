@@ -19,9 +19,13 @@ namespace MarkHeath.MidiUtils
         {
             TextMap mappingRule = new TextMap();
             mappingRule.Name = XmlUtils.GetAttribute(mappingNode,"Name","");
-            mappingRule.EventType = InsertEventTypeToMetaEventType((TextEventType)Enum.Parse(typeof(TextEventType), XmlUtils.GetAttribute(mappingNode, "EventType", "")));
+            mappingRule.EventType = InsertEventTypeToMetaEventType(
+                (TextEventType)Enum.Parse(typeof(TextEventType), 
+                XmlUtils.GetAttribute(mappingNode, "EventType", "")));
             mappingRule.OutValue = XmlUtils.GetAttribute(mappingNode, "OutValue", existingValue);
             mappingRule.InValue = XmlUtils.GetAttribute(mappingNode, "InValue", "");
+            mappingRule.MatchType = (TextMatchType)Enum.Parse(typeof(TextMatchType),
+                XmlUtils.GetAttribute(mappingNode, "MatchType", "Regex"));
 
             return mappingRule;
         }
@@ -32,11 +36,13 @@ namespace MarkHeath.MidiUtils
             OutValue = existingValue;
             InValue = "";
             EventType = MetaEventType.TextEvent;
+            MatchType = TextMatchType.Regex;
         }
         
         public string OutValue { get; set; }
         public string Name { get; set; }
         public MetaEventType EventType { get; set; }
+        public TextMatchType MatchType { get; set; }
 
         public string InValue 
         { 
@@ -59,13 +65,23 @@ namespace MarkHeath.MidiUtils
             TextEvent textEvent = inEvent as TextEvent;
             if (textEvent != null && textEvent.MetaEventType == EventType)
             {
-                if (textEvent.Text.Length == 0 || inRegex.Match(textEvent.Text).Success)
+                switch (MatchType)
                 {
-                    textEvent.Text = ProcessText(textEvent.Text, args);
-                    match = true;
+                    case TextMatchType.ExactMatch:
+                        match = (textEvent.Text == InValue);
+                        break;
+                    case TextMatchType.Substring:
+                        match = textEvent.Text.Contains(InValue);
+                        break;
+                    case TextMatchType.Regex:
+                        match = inRegex.Match(textEvent.Text).Success;
+                        break;
                 }
             }
-
+            if(match)
+            {
+                textEvent.Text = ProcessText(textEvent.Text, args);                    
+            }
             return match;
         }
 

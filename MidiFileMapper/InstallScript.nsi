@@ -12,8 +12,8 @@
  
 !include LogicLib.nsh
 
-!define VERSION "0.2"
-!define FULLVERSION "0.2.26.0"
+!define VERSION "0.3"
+!define FULLVERSION "0.3.30.0"
 !define PRODUCT_NAME "MIDI File Mapper"
 !define EXECUTABLE_NAME "MidiFileMapper.exe"
 

@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.2.29.0")]
-[assembly: AssemblyFileVersion("0.2.29.0")]
+[assembly: AssemblyVersion("0.3.30.0")]
+[assembly: AssemblyFileVersion("0.3.30.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -137,6 +137,10 @@ using System.Runtime.InteropServices;
 // added regex matching to TextMap rule
 // build 29 17 Dec 2007
 // exclude rule changed SequenceTrackName to TrackName to bring into line with TextMap rule
+// build 30 17 Dec 2007
+// restructured code folders
+// TextMap can choose exact match, substring or regex
+// Map files are now located in a subdirectory to make the install folder less cluttered
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)
