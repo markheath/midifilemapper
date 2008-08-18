@@ -137,22 +137,34 @@ namespace MarkHeath.MidiUtils
 
         private bool AddXmlMappingFile(string fileName)
         {
-            XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load(fileName);
-            if (xmlDoc.DocumentElement.Name == MidiMappingRules.RootElementName)
+            try
             {
-                string name = Path.GetFileNameWithoutExtension(fileName);
-
-                XmlNode nameNode = xmlDoc.DocumentElement.SelectSingleNode(
-                    "//" + MidiMappingRules.RootElementName + "/" +
-                    MidiMappingRules.GeneralSettingsElementName + "/@Name");
-                if (nameNode != null)
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(fileName);
+                if (xmlDoc.DocumentElement.Name == MidiMappingRules.RootElementName)
                 {
-                    name = nameNode.Value;
+                    string name = Path.GetFileNameWithoutExtension(fileName);
+
+                    XmlNode nameNode = xmlDoc.DocumentElement.SelectSingleNode(
+                        "//" + MidiMappingRules.RootElementName + "/" +
+                        MidiMappingRules.GeneralSettingsElementName + "/@Name");
+                    if (nameNode != null)
+                    {
+                        name = nameNode.Value;
+                    }
+                    int index = listBoxMapping.Items.Add(new ComboItem(name, fileName));
+                    listBoxMapping.SelectedIndex = index;
+                    return true;
                 }
-                int index = listBoxMapping.Items.Add(new ComboItem(name, fileName));
-                listBoxMapping.SelectedIndex = index;
-                return true;
+            }
+            catch (XmlException xe)
+            {
+                MessageBox.Show(
+                    String.Format("Failed to load map file: {0}\r\n{1}",
+                        fileName, xe.Message),
+                    Application.ProductName,
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
             return false;
         }
@@ -281,10 +293,9 @@ namespace MarkHeath.MidiUtils
                         return;
                     }
                 }
-                bool added = false;
                 if(selectedFile.ToLower().EndsWith(".xml"))
                 {
-                    added = AddXmlMappingFile(selectedFile);
+                    AddXmlMappingFile(selectedFile);
                 }
                 else
                 {
@@ -292,12 +303,6 @@ namespace MarkHeath.MidiUtils
                     ComboItem item = new ComboItem(Path.GetFileNameWithoutExtension(selectedFile), selectedFile);
                     listBoxMapping.Items.Add(item);
                     listBoxMapping.SelectedItem = item;
-                    added = true;
-                }
-                if (!added)
-                {
-                    MessageBox.Show("The selected file was not recognised as a valid map",
-                        Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
         }
