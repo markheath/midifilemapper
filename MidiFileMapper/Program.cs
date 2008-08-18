@@ -14,7 +14,14 @@ namespace MarkHeath.MidiUtils
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
             Application.Run(new MidiFileMapperForm());
         }
+
+        static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            UnhandledExceptionForm.Show((Exception)e.ExceptionObject);
+        }
+
     }
 }
