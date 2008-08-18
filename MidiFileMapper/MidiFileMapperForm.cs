@@ -67,7 +67,7 @@ namespace MarkHeath.MidiUtils
             selectMappingPage = new SelectMappingPage();
             optionsPage = new OptionsPage();
             convertFilesPage = new ConvertFilesPage(selectFilesPage, selectMappingPage);
-
+            
             welcomePage.Updated += new EventHandler(WizardPageUpdated);
             selectFolderPage.Updated += new EventHandler(WizardPageUpdated);
             selectFilesPage.Updated += new EventHandler(WizardPageUpdated);
