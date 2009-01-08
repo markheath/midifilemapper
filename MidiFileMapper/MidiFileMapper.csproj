@@ -194,10 +194,16 @@
     <Compile Include="XmlUtils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Maps\DFH EZX to GM.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Maps\DFH1 to DFH EZX.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Maps\EZD to AD.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Maps\EZD to GM.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Maps\Fixed Note Durations - 1 Tick.xml">

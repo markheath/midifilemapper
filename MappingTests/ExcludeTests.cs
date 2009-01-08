@@ -4,6 +4,7 @@ using System.Text;
 using MarkHeath.MidiUtils;
 using NUnit.Framework;
 using NAudio.Midi;
+using System.IO;
 
 namespace MappingTests
 {
@@ -26,6 +27,10 @@ namespace MappingTests
             Assert.IsTrue(mappingRules.ExcludeRules.Count == 1);
             string inFileName = ".\\TestFiles\\SimpleTestType0.mid";
             string outFileName = ".\\OutputFiles\\KeySignaturesExcluded.mid";
+            if (!Directory.Exists(".\\OutputFiles"))
+            {
+                Directory.CreateDirectory(".\\OutputFiles");
+            }
             bool converted = mappingRules.ConvertFile(inFileName, outFileName, -1);
             Assert.IsTrue(converted, "Failed to convert the file");
 
