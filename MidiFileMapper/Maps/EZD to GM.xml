@@ -1,0 +1,23 @@
+  <MidiMappingRules>
+ <General Name="EZ to GM" /> 
+ <NoteMap Name="Bass Drum 1" InNote="34,35,36" OutNote="36" /> 
+ <NoteMap Name="Side Stick" InNote="37" OutNote="37" /> 
+ <NoteMap Name="Acoustic Snare l sn" InNote="33" OutNote="38" /> 
+ <NoteMap Name="Hand Clap rim sh" InNote="40" OutNote="39" /> 
+ <NoteMap Name="Electric Snare r sn" InNote="38,39" OutNote="40" /> 
+ <NoteMap Name="Low Floor Tom" InNote="41" OutNote="41" /> 
+ <NoteMap Name="Closed Hi-Hat" InNote="22,42,61,62,63,64,65" OutNote="42" /> 
+ <NoteMap Name="High Floor Tom" InNote="43" OutNote="43" /> 
+ <NoteMap Name="Pedal Hi-Hat" InNote="21,23,44" OutNote="44" /> 
+ <NoteMap Name="Low Tom" InNote="45" OutNote="45" /> 
+ <NoteMap Name="Open Hi-Hat" InNote="24,25,26,46,60" OutNote="46" /> 
+ <NoteMap Name="Low-Mid Tom" InNote="47" OutNote="47" /> 
+ <NoteMap Name="Mid Tom" InNote="48" OutNote="48" /> 
+ <NoteMap Name="Crash Cymbal 1" InNote="27,28,29,49,54,55" OutNote="49" />
+ <NoteMap Name="High Tom" InNote="50" OutNote="50" /> 
+ <NoteMap Name="Ride Bow" InNote="51" OutNote="51" /> 
+ <NoteMap Name="Ride Bell" InNote="53" OutNote="53" /> 
+ <NoteMap Name="Cowbell" InNote="56" OutNote="56" /> 
+ <NoteMap Name="Crash Cymbal 2" InNote="30,31,32,52,57,58" OutNote="57" />
+ <NoteMap Name="Ride Cymbal 2 punch" InNote="59" OutNote="59" /> 
+ </MidiMappingRules>
