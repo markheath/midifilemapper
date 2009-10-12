@@ -10,8 +10,6 @@ namespace MarkHeath.MidiUtils
         bool allValues;
         int value;
         List<ValueRange> ranges;
-        int min;
-        int max;
 
         private InputValueParameters()
         {
@@ -25,14 +23,7 @@ namespace MarkHeath.MidiUtils
         }
         
         public InputValueParameters(string setting)
-            : this(setting, 0, 127)
         {
-        }
-
-        public InputValueParameters(string setting, int min, int max)
-        {
-            this.min = min;
-            this.max = max;
             ranges = new List<ValueRange>();
             
             setting = setting.Replace(" ", "");
@@ -56,7 +47,6 @@ namespace MarkHeath.MidiUtils
                     {
                         int note = Int32.Parse(rangeString);
                         ranges.Add(new ValueRange(note, note));
-
                     }
                 }
                 if (ranges.Count == 1)

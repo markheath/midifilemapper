@@ -50,7 +50,7 @@ namespace MarkHeath.MidiUtils
                 mappingRule.InNotes = new InputValueParameters(mapping.InNote);
                 mappingRule.OutChannel = new NoteEventOutputParameters(mapping.Channel);
                 mappingRule.OutNote = new NoteEventOutputParameters(mapping.OutNote);
-                mappingRule.OutVelocity = new NoteEventOutputParameters(mapping.VelocityAdjust, (int) mapping.VelocityScale);
+                mappingRule.OutVelocity = new NoteEventOutputParameters(mapping.VelocityAdjust, (int) mapping.VelocityScale, 0, 127);
                 // TODO: support out velocity scaling
                 mappingRules.noteRules.Add(mappingRule);
             }
