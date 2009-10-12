@@ -52,8 +52,6 @@ namespace MappingTests
             Assert.IsTrue(foundTrackName,"Didn't find an updated TrackName");
         }
 
-
-
         [Test]
         public void TransposeTestType0()
         {
