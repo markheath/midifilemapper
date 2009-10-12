@@ -19,22 +19,17 @@ namespace MarkHeath.MidiUtils
         }
 
         public NoteEventOutputParameters(int value)
-            : this(value, 100)
         {
-        }
-
-        public NoteEventOutputParameters(int value, int percent)
-        {
-            fixedValue = true;
+            this.fixedValue = true;
             this.value = value;
-            this.min = value;
-            this.max = value;
-            this.percent = percent;
         }
 
-        public int Value
+        public NoteEventOutputParameters(int value, int percent, int min, int max)
         {
-            get { return value; }
+            this.value = value;
+            this.min = 0;
+            this.max = 127;
+            this.percent = percent;
         }
 
         public NoteEventOutputParameters(string setting, int min, int max)
@@ -81,14 +76,11 @@ namespace MarkHeath.MidiUtils
 
             int output = input + value;
 
-
             if (output < min)
                 output = min;
             if (output > max)
                 output = max;
-
-            
-
+           
             return output;
         }
     }

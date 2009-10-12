@@ -57,7 +57,9 @@
     <Compile Include="DrumMapTests.cs" />
     <Compile Include="ExcludeTests.cs" />
     <Compile Include="FileTests.cs" />
+    <Compile Include="InputValueParametersTests.cs" />
     <Compile Include="MappingTests.cs" />
+    <Compile Include="NoteEventOutputParametersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextMapTests.cs" />
   </ItemGroup>
