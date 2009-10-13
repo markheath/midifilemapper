@@ -36,18 +36,7 @@ namespace MarkHeath.MidiUtils
                 string[] rangeStrings = setting.Split(',', ';');
                 foreach (string rangeString in rangeStrings)
                 {
-                    int dashIndex = rangeString.IndexOf('-');
-                    if (dashIndex != -1)
-                    {
-                        int first = Int32.Parse(rangeString.Substring(0, dashIndex));
-                        int last = Int32.Parse(rangeString.Substring(dashIndex + 1));
-                        ranges.Add(new ValueRange(first, last));
-                    }
-                    else
-                    {
-                        int note = Int32.Parse(rangeString);
-                        ranges.Add(new ValueRange(note, note));
-                    }
+                    ranges.Add(ValueRange.Parse(rangeString));
                 }
                 if (ranges.Count == 1)
                 {
@@ -59,7 +48,7 @@ namespace MarkHeath.MidiUtils
                 }
             }
         }
-        
+      
         public bool IsValueIncluded(int input)
         {
             if (allValues)
