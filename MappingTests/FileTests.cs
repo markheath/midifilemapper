@@ -20,12 +20,15 @@ namespace MappingTests
         public void TestBundledMappings()
         {
             // simply tests that the bundled mapping files can be loaded
-            string mappingPath = ".\\..\\..\\..\\MidiFileMapper\\";
+            string mappingPath = ".\\Maps\\";
+            int count = 0;
             foreach(string file in System.IO.Directory.GetFiles(mappingPath,"*.xml"))
-            {                
+            {
+                count++;
                 System.Diagnostics.Debug.WriteLine(String.Format("Opening {0}",file));
                 MidiMappingRules mappingRules = MidiMappingRules.LoadFromXml(file);
             }
+            Assert.AreEqual(9, count); // make sure we caught them all
         }
 
         [Test]
