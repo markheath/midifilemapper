@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.4.33.0")]
-[assembly: AssemblyFileVersion("0.4.33.0")]
+[assembly: AssemblyVersion("0.4.34.0")]
+[assembly: AssemblyFileVersion("0.4.34.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -147,6 +147,8 @@ using System.Runtime.InteropServices;
 // unit testing. minor bug fix to note event output parameters
 // build 33 15 Nov 2010
 // switched to non-strict MIDI file parsing
+// build 34 15 Nov 2010
+// bug-fixing the click-once release
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)

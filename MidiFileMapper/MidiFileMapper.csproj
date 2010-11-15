@@ -40,6 +40,9 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://midifilemapper.codeplex.com/releases/clickonce/</InstallUrl>
+    <SupportUrl>http://midifilemapper.codeplex.com</SupportUrl>
+    <ProductName>MIDI File Mapper</ProductName>
+    <PublisherName>Mark Heath</PublisherName>
     <MinimumRequiredVersion>1.0.0.1</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>

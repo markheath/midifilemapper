@@ -9,6 +9,7 @@ using System.IO;
 using System.Xml;
 using Microsoft.Win32;
 using MarkHeath.MidiUtils.Properties;
+using System.Deployment.Application;
 
 namespace MarkHeath.MidiUtils
 {
@@ -52,9 +53,21 @@ namespace MarkHeath.MidiUtils
             PopulateMappingCombo();
         }
 
+        private string GetDataDirectory()
+        {
+            if (ApplicationDeployment.IsNetworkDeployed)
+            {
+                return ApplicationDeployment.CurrentDeployment.DataDirectory;
+            }
+            else
+            {
+                return Application.StartupPath;
+            }
+        }
+
         private void PopulateMappingCombo()
-        {            
-            string appPath = Path.GetDirectoryName(Application.ExecutablePath);
+        {
+            string appPath = GetDataDirectory();
             string mapPath = Path.Combine(appPath, "Maps");
             foreach (string xmlFile in Directory.GetFiles(mapPath, "*.xml"))
             {
