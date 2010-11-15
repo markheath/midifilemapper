@@ -254,7 +254,7 @@ namespace MarkHeath.MidiUtils
 
         public bool ConvertFile(string sourceFile, string destFile, int fileType)
         {
-            MidiFile midiFile = new MidiFile(sourceFile);
+            MidiFile midiFile = new MidiFile(sourceFile,false);
             if (fileType == -1)
             {
                 fileType = midiFile.FileFormat;

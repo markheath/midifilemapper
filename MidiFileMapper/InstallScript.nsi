@@ -12,8 +12,8 @@
  
 !include LogicLib.nsh
 
-!define VERSION "0.3"
-!define FULLVERSION "0.3.30.0"
+!define VERSION "0.4"
+!define FULLVERSION "0.4.33.0"
 !define PRODUCT_NAME "MIDI File Mapper"
 !define EXECUTABLE_NAME "MidiFileMapper.exe"
 
@@ -33,7 +33,7 @@ InstallDirRegKey HKLM "Software\${PRODUCT_NAME}" "Install_Dir"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "${PRODUCT_NAME}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" ""
 VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "Mark Heath"
-VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "© 2009 Mark Heath"
+VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "© 2010 Mark Heath"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "${PRODUCT_NAME} Installer"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "${VERSION}"
 VIProductVersion "${FULLVERSION}"
@@ -48,17 +48,17 @@ Function .onInit
   Call GetDotNETVersion
   Pop $0
   ${If} $0 == "not found"
-    MessageBox MB_OK|MB_ICONSTOP ".NET runtime library v2.0 or newer is required."
-    ExecShell "open" "http://msdn.microsoft.com/netframework/downloads/updates/default.aspx"
+    MessageBox MB_OK|MB_ICONSTOP ".NET runtime library v3.5 or newer is required."
+    ExecShell "open" "http://msdn.microsoft.com/en-us/netframework/cc378097.aspx"
     Abort
   ${EndIf}
  
   StrCpy $0 $0 "" 1 # skip "v"
  
-  ${VersionCompare} $0 "2.0" $1
+  ${VersionCompare} $0 "3.5" $1
   ${If} $1 == 2
-    MessageBox MB_OK|MB_ICONSTOP ".NET runtime library v2.0 or newer is required. You have $0."
-    ExecShell "open" "http://msdn.microsoft.com/netframework/downloads/updates/default.aspx"
+    MessageBox MB_OK|MB_ICONSTOP ".NET runtime library v3.5 or newer is required. You have $0."
+    ExecShell "open" "http://msdn.microsoft.com/en-us/netframework/cc378097.aspx"
     Abort
   ${EndIf}
 FunctionEnd
@@ -100,9 +100,7 @@ Section "Program Files (required)"
   File "${EXECUTABLE_NAME}"
   File "${EXECUTABLE_NAME}.config"
   File "NAudio.dll"
-  File "GM to EZdrummer.xml"
-  File "GM to Latin Percussion EZX.xml"
-  File "GM to AD.xml"
+  File "*.xml"
   
   ; Write the installation path into the registry
   WriteRegStr HKLM "SOFTWARE\${PRODUCT_NAME}" "Install_Dir" "$INSTDIR"
@@ -140,9 +138,7 @@ Section "Uninstall"
   Delete "$INSTDIR\${EXECUTABLE_NAME}.config"
   Delete "$INSTDIR\NAudio.dll"
   Delete "$INSTDIR\uninstall.exe"
-  Delete "$INSTDIR\GM to EZdrummer.xml"
-  Delete "$INSTDIR\GM to Latin Percussion EZX.xml"
-  Delete "$INSTDIR\GM to AD.xml"
+  Delete "$INSTDIR\*.xml"
   
   ; Remove shortcuts, if any
   Delete "$SMPROGRAMS\${PRODUCT_NAME}\*.*"
