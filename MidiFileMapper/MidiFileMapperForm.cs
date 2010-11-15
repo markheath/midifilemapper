@@ -166,14 +166,13 @@ namespace MarkHeath.MidiUtils
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutForm aboutForm = new AboutForm();
-            aboutForm.Url = "http://www.codeplex.com/midifilemapper";
+            AboutForm aboutForm = new AboutForm("http://midifilemapper.codeplex.com/");
             aboutForm.ShowDialog();
         }
 
         private void contentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string helpFilePath = "http://www.codeplex.com/midifilemapper/Wiki/View.aspx?title=Documentation"; // Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "midi_file_mapper.html");
+            string helpFilePath = "http://midifilemapper.codeplex.com/documentation";
             try
             {
                 System.Diagnostics.Process.Start(helpFilePath);

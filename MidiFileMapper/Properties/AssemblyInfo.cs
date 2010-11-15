@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mark Heath")]
 [assembly: AssemblyProduct("MIDI File Mapper")]
-[assembly: AssemblyCopyright("Copyright © Mark Heath 2007")]
+[assembly: AssemblyCopyright("Copyright © Mark Heath 2007-2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.3.32.0")]
-[assembly: AssemblyFileVersion("0.3.32.0")]
+[assembly: AssemblyVersion("0.4.33.0")]
+[assembly: AssemblyFileVersion("0.4.33.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -145,6 +145,8 @@ using System.Runtime.InteropServices;
 // better handling of startup errors
 // build 32 12 Oct 2009
 // unit testing. minor bug fix to note event output parameters
+// build 33 15 Nov 2010
+// switched to non-strict MIDI file parsing
 
 // - refactor mapping rules conversion function to deal with lists of events only
 // - group rules into type again (controller, note, etc)
