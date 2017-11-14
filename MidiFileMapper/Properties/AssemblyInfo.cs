@@ -29,8 +29,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.5.35.0")]
-[assembly: AssemblyFileVersion("0.5.35.0")]
+[assembly: AssemblyVersion("0.5.36.0")]
+[assembly: AssemblyFileVersion("0.5.36.0")]
 
 // build 1 - 14 Oct 2006
 // initial wizard style UI design
@@ -151,6 +151,8 @@ using System.Runtime.InteropServices;
 // bug-fixing the click-once release
 // build 35 26 Jul 2017
 // moving to GitHub and VS2017
+// build 36 14 Nov 2017
+// Needs to run as 32 bit process for compatibility with legacy NAudio.dll
 
 
 // - refactor mapping rules conversion function to deal with lists of events only

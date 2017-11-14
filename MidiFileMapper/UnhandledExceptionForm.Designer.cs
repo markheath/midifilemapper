@@ -43,7 +43,7 @@
             this.label1.Size = new System.Drawing.Size(360, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "An unexpected error occurred in MIDI File Mapper. Please report the following err" +
-                "or message at the CodePlex MIDI File Mapper home page.";
+                "or message at the MIDI File Mapper GitHub page.";
             // 
             // textBoxMessage
             // 
