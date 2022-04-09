@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <!-- GGD Invasion Drums
+17	HH CC
+22	Double Kick
+23	Kick
+24	Double Kick
+26	Snare
+30	Snare Cross Stick
+33	Tom 1
+34	Tom 2
+35	Tom 3
+36	Tom 4
+41	HH Tip Tight
+42	HH Edge Tight
+43	HH Tip Closed
+44	HH Edge Closed
+45	HH Open 1
+46	HH Open 2
+47	HH Open 3
+48	HH Pedal
+52	Crash Left
+53	Crash Left Choke
+54	Crash Center
+55	Crash Center Choke
+58	Crash Right
+59	Crash Right Choke
+61	Ride Bell
+62	Ride Bow
+65	China
+66	China Choke
+73	Splash Left
+74	Splash Left Choke
+75	Splash Center
+76	Splash Center Choke
+  -->
+  <!-- EZ Drummer 2 Metal! EZ 
+21	HH Closed Pedal
+22	HH Closed Edge
+23	HH Open Pedal
+24	HH Open 1
+25	HH Open 2
+26	HH Open 3
+27	China 1 Crashed
+28	Cymbal 1 Crashed
+29	Spock Crashed
+30	Cymbal 3 Crashed
+31	Cymbal 4 Crashed
+32	Cymbal 6 Crashed
+33	Snare alias
+34	Kick alias
+35	Kick Left
+36	Kick Right
+37	Snare Sidestick
+38	Snare Center
+39	Snare alias
+40	Snare Rimshot
+41	Floortom 2 Center
+42	HH Closed
+43	Floortom 1 Center
+44	HH Pedal
+45	Racktom 3 Center
+46	HH Open
+47	Racktom 2 Center
+48	Racktom 1 Center
+49	Cymbal 2 Crashed
+50	Cymbal 2 Muted
+51	Ride Bow
+52	China 2 Crashed
+53	Ride Bell
+54	Cymbal 2 alias
+55	Splash Crashed
+56	Cymbal 5 alias
+57	Cymbal 5 Crashed
+58	Cymbal 5 Muted
+59	Ride alias
+60	HH Open Max
+61	HH Closed Tip
+62	HH Tight Edge
+63	HH Tight Tip
+  -->
+  <General Name="GGD Invasion to Metal! EZX" />
+  <NoteMap Name="HH CC" InNote="17" OutNote="42" />
+  <NoteMap Name="Double Kick" InNote="22" OutNote="34" />
+  <NoteMap Name="Kick" InNote="23" OutNote="35" />
+  <NoteMap Name="Double Kick" InNote="24" OutNote="36" />
+  <NoteMap Name="Snare" InNote="26" OutNote="38" />
+  <NoteMap Name="Snare Cross Stick" InNote="30" OutNote="40" />
+  <NoteMap Name="Tom 1" InNote="33" OutNote="48" />
+  <NoteMap Name="Tom 2" InNote="34" OutNote="47" />
+  <NoteMap Name="Tom 3" InNote="35" OutNote="45" />
+  <NoteMap Name="Tom 4" InNote="36" OutNote="43" />
+  <NoteMap Name="HH Tip Tight" InNote="41" OutNote="63" />
+  <NoteMap Name="HH Edge Tight" InNote="42" OutNote="62" />
+  <NoteMap Name="HH Tip Closed" InNote="43" OutNote="61" />
+  <NoteMap Name="HH Edge Closed" InNote="44" OutNote="22" />
+  <NoteMap Name="HH Open 1" InNote="45" OutNote="24" />
+  <NoteMap Name="HH Open 2" InNote="46" OutNote="25" />
+  <NoteMap Name="HH Open 3" InNote="47" OutNote="26" />
+  <NoteMap Name="HH Pedal" InNote="48" OutNote="23" />
+  <NoteMap Name="Crash Left" InNote="52" OutNote="52" />
+  <NoteMap Name="Crash Left Choke" InNote="53" OutNote="50" />
+  <NoteMap Name="Crash Center" InNote="54" OutNote="57" />
+  <NoteMap Name="Crash Center Choke" InNote="55" OutNote="58" />
+  <NoteMap Name="Crash Right" InNote="58" OutNote="32" />
+  <NoteMap Name="Crash Right Choke" InNote="59" OutNote="107" />
+  <NoteMap Name="Ride Bell" InNote="61" OutNote="53" />
+  <NoteMap Name="Ride Bow" InNote="62" OutNote="51" />
+  <NoteMap Name="China" InNote="65" OutNote="52" />
+  <NoteMap Name="China Choke" InNote="66" OutNote="27" />
+  <NoteMap Name="Splash Left" InNote="73" OutNote="30" />
+  <NoteMap Name="Splash Left Choke" InNote="74" OutNote="95" />
+  <NoteMap Name="Splash Center" InNote="75" OutNote="31" />
+  <NoteMap Name="Splash Center Choke" InNote="76" OutNote="106" />
+
+</MidiMappingRules>
+
+
