@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <MidiMappingRules>
 
-<General Name="Studio Drummer to GM" />
+<General Name="NI Studio Drummer to GM" />
 
-<NoteMap Name="Kick 1" InNote="60" OutNote="35" />
-
+<NoteMap Name="Kick 2" InNote="60" OutNote="36" />
 <NoteMap Name="Kick 2" InNote="36" OutNote="36" />
 
 <NoteMap Name="Side Stick" InNote="37" OutNote="37" />
