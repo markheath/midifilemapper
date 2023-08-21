@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+<!--
+
+(c) kamilbaranski.com;
+send all your dollars to https://www.paypal.me/kamilbaranski
+Thank you!
+
+
+AD Drums map:
+36 Kick
+37 Snare Rimshot L
+38 Snare Open Hit L
+39 Snare Rimshot R
+40 Snare Open Hit R
+41 Snare Shallow Rimshot
+42 Snare Sidestick
+43 Snare Shallow Hit
+44 Snare Rim Click
+45 Ride Pearl (Double)
+46 Cymbal 1 (Double)
+47 Cowbell
+48 HH Pedal Closed
+49 HH Closed 1 Pearl
+50 HH Closed 1 Shaft
+51 HH Closed 2 Pearl
+52 HH Closed 2 Shaft
+53 HH Closed Bell
+54 HH Open A
+55 HH Open B
+56 HH Open C
+57 HH Open D
+58 HH Open Bell
+59 HH Pedal Open
+60 Ride Pearl
+61 Ride Bell
+62 Ride Shaft
+63 Ride Choke
+65 Tom 4 Open Hit
+66 Tom 4 Rimshot
+67 Tom 3 Open Hit
+68 Tom 3 Rimshot
+69 Tom 2 Open Hit
+70 Tom 2 Rimshot
+71 Tom 1 Open Hit
+72 Tom 1 Rimshot
+75 Sticks 
+77 Cymbal 1
+78 Cymbal 1 Choke
+79 Cymbal 2
+80 Cymbal 2 Choke
+81 Cymbal 3
+82 Cymbal 3 Choke
+
+XG drums map:
+for example here: https://regnat.pagesperso-orange.fr/Doc700/GMGSXGDrumMap.htm
+-->
+<General Name="AD to GM" />
+
+<!-- AD just has one kick drum-->
+<NoteMap Name="Kick"                    InNote="36" OutNote="36" />
+
+<!-- snare -->
+<NoteMap Name="Snare Rimshot L"         InNote="37" OutNote="38" />
+<NoteMap Name="Snare Open Hit L"        InNote="38" OutNote="38" />
+<NoteMap Name="Snare Rimshot R"         InNote="39" OutNote="38" />
+<NoteMap Name="Snare Open Hit R"        InNote="40" OutNote="38" />
+<NoteMap Name="Snare Shallow Rimshot"   InNote="41" OutNote="38" />
+<NoteMap Name="Snare Sidestick"         InNote="42" OutNote="37" />
+<NoteMap Name="Snare Shallow Hit"       InNote="43" OutNote="38" />
+<NoteMap Name="Snare Rim Click"         InNote="44" OutNote="38" />
+
+<!-- hihats -->
+<NoteMap Name="HH Pedal Closed"         InNote="48" OutNote="44" />
+<NoteMap Name="HH Closed 1 Pearl"       InNote="49" OutNote="42" />
+<NoteMap Name="HH Closed 1 Shaft"       InNote="50" OutNote="42" />
+<NoteMap Name="HH Closed 2 Pearl"       InNote="51" OutNote="42" />
+<NoteMap Name="HH Closed 2 Shaft"       InNote="52" OutNote="42" />
+<NoteMap Name="HH Closed Bell"          InNote="53" OutNote="42" />
+<NoteMap Name="HH Open A"               InNote="54" OutNote="46" />
+<NoteMap Name="HH Open B"               InNote="55" OutNote="46" />
+<NoteMap Name="HH Open C"               InNote="56" OutNote="46" />
+<NoteMap Name="HH Open D"               InNote="57" OutNote="46" />
+<NoteMap Name="HH Open Bell"            InNote="58" OutNote="46" />
+<NoteMap Name="HH Pedal Open"           InNote="59" OutNote="46" />
+
+<!-- cowbell -->
+<NoteMap Name="Cowbell"                 InNote="47" OutNote="56" />
+
+<!-- rides -->
+<NoteMap Name="Ride Pearl (Double)"     InNote="45" OutNote="51" />
+<NoteMap Name="Ride Pearl"              InNote="60" OutNote="51" />
+<NoteMap Name="Ride Bell"               InNote="61" OutNote="53" />
+<NoteMap Name="Ride Shaft"              InNote="62" OutNote="59" />
+
+<!-- crashes -->
+<NoteMap Name="Cymbal 1 (Double)"       InNote="46" OutNote="49" />
+<NoteMap Name="Cymbal 1"                InNote="77" OutNote="49" />
+<NoteMap Name="Cymbal 2"                InNote="79" OutNote="52" /><!-- china -->
+<NoteMap Name="Cymbal 3"                InNote="81" OutNote="57" />
+
+<!-- toms -->
+<NoteMap Name="Tom 4 Open Hit"          InNote="65" OutNote="41" /><!-- Low Floor Tom -->
+<NoteMap Name="Tom 4 Rimshot"           InNote="66" OutNote="41" />
+<NoteMap Name="Tom 3 Open Hit"          InNote="67" OutNote="43" />
+<NoteMap Name="Tom 3 Rimshot"           InNote="68" OutNote="43" />
+<NoteMap Name="Tom 2 Open Hit"          InNote="69" OutNote="45" />
+<NoteMap Name="Tom 2 Rimshot"           InNote="70" OutNote="45" />
+<NoteMap Name="Tom 1 Open Hit"          InNote="71" OutNote="48" />
+<NoteMap Name="Tom 1 Rimshot"           InNote="72" OutNote="48" /><!-- High Tom -->
+
+<!-- sticks -->
+<NoteMap Name="Sticks"                  InNote="75" OutNote="32" />
+
+</MidiMappingRules>
