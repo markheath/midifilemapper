@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <MidiMappingRules>
-<!-- XO
+<!-- Contributed by: https://github.com/Fannon -->
+<!-- Triaz Target Assignment
 36 Kick 1
-37 Perc / Kick 2
+37 Perc
 38 Snare 1
 39 Clap
 40 Snare 2
