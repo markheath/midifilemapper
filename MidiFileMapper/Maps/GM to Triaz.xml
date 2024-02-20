@@ -1,0 +1,73 @@
+<!-- Contributed by: https://github.com/Fannon -->
+<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+<!-- Triaz Target Assignment
+36 Kick 1
+37 Perc
+38 Snare 1
+39 Clap
+40 Snare 2
+41 Tom L
+42 HH Closed
+43 HH Open
+44 Tom M
+45 Tom H
+46 Crash
+47 Ride
+-->
+
+<General Name="GM to Triaz" />
+
+<!-- DRUMS -->
+<NoteMap Name="Kick 1" InNote="35" OutNote="37" />
+<NoteMap Name="Kick 2" InNote="36" OutNote="36" />
+<NoteMap Name="Side Stick" InNote="37" OutNote="40" />
+<NoteMap Name="Acoustic Snare" InNote="38" OutNote="38" />
+<NoteMap Name="Hand Clap" InNote="39" OutNote="39" />
+
+<NoteMap Name="Electric Snare" InNote="40" OutNote="38" /> 
+<NoteMap Name="Low Floor Tom" InNote="41" OutNote="41" />
+<NoteMap Name="Closed Hi-Hat" InNote="42" OutNote="42" />
+<NoteMap Name="High Floor Tom" InNote="43" OutNote="45" />
+<NoteMap Name="Pedal Hi-Hat" InNote="44" OutNote="42" />
+<NoteMap Name="Low Tom" InNote="45" OutNote="41" />
+<NoteMap Name="Open Hi-Hat" InNote="46" OutNote="43" />
+<NoteMap Name="Low-Mid Tom" InNote="47" OutNote="44" />
+<NoteMap Name="Mid Tom" InNote="48" OutNote="44" />
+<NoteMap Name="Crash Cymbal 1" InNote="49" OutNote="46" />
+<NoteMap Name="High Tom" InNote="50" OutNote="45" />
+<NoteMap Name="Ride 1" InNote="51" OutNote="47" />
+<NoteMap Name="China Cymbal" InNote="52" OutNote="46" />
+<NoteMap Name="Ride Bell" InNote="53" OutNote="47" />
+<NoteMap Name="Tambourine" InNote="54" OutNote="44" />
+<NoteMap Name="Splash" InNote="55" OutNote="46" />
+<NoteMap Name="Cowbell" InNote="56" OutNote="37" />
+<NoteMap Name="Crash Cymbal 2" InNote="57" OutNote="46" />
+<NoteMap Name="Vibraslap" InNote="58" OutNote="37" />
+<NoteMap Name="Ride 2" InNote="59" OutNote="47" />
+
+<!-- PERCUSSION -->
+<NoteMap Name="High Bongo" InNote="60" OutNote="45" />
+<NoteMap Name="Low Bongo" InNote="61" OutNote="41" />
+<NoteMap Name="Mute High Bongo" InNote="62" OutNote="45" />
+<NoteMap Name="Mute Low Bongo" InNote="63" OutNote="36" />
+<NoteMap Name="Low Conga" InNote="64" OutNote="37" />
+<NoteMap Name="High Timbale" InNote="65" OutNote="45" />
+<NoteMap Name="Low Timbale" InNote="66" OutNote="37" />
+<NoteMap Name="High Agogo" InNote="67" OutNote="45" />
+<NoteMap Name="Low Agogo" InNote="68" OutNote="42" />
+<NoteMap Name="Cabasa" InNote="69" OutNote="44" />
+<NoteMap Name="Maracas" InNote="70" OutNote="37" />
+<NoteMap Name="Short Whistle" InNote="71" OutNote="42" />
+<NoteMap Name="Long WHistle" InNote="72" OutNote="43" />
+<NoteMap Name="Short Guiro" InNote="73" OutNote="42" />
+<NoteMap Name="Long Guiro" InNote="74" OutNote="43" />
+<NoteMap Name="Claves" InNote="75" OutNote="37" />
+<NoteMap Name="Hi Wood Block" InNote="76" OutNote="45" />
+<NoteMap Name="Low Wood Block" InNote="77" OutNote="44" />
+<NoteMap Name="Mute Cuica" InNote="78" OutNote="42" />
+<NoteMap Name="Open Cuica" InNote="79" OutNote="42" />
+<NoteMap Name="Mute Triangle" InNote="80" OutNote="42" />
+<NoteMap Name="Open Triangle" InNote="81" OutNote="43" />
+
+</MidiMappingRules>
