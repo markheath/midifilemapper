@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MidiMappingRules>
+  <General
+    Name="Everything to MIDI channel 10"
+    Author="Kamil Baranski"
+    Description="Notation software use drum map only on channel 10. That's fast fix if one uses drums on for example channel 1"
+    />
+
+  <NoteMap Name="Move notes to Channel 10" InChannel="*" InNote="*" OutChannel="10" />
+  <ControllerMap Name="Move CCs to Channel 10" InChannel="*" InController="*" OutChannel="10" />
+
+</MidiMappingRules>
